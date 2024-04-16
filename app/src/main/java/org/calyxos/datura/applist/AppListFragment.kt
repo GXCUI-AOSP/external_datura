@@ -78,6 +78,9 @@ class AppListFragment : Fragment(R.layout.fragment_app_list) {
                             viewModel.sort = Sort.NAME
                         }
                     }
+                    R.id.settings -> {
+                        findNavController().navigate(R.id.settingsFragment)
+                    }
                 }
                 true
             }
