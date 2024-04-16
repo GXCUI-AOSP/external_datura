@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbb70fa2_811871ac",
+        "filename": "app/src/main/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "I\u0027m supposing this is preferable over making the app persistent? There are caveats both ways",
+      "range": {
+        "startLine": 34,
+        "startChar": 8,
+        "endLine": 38,
+        "endChar": 18
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8faec3d_9294a8bb",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Change as needed",
+      "range": {
+        "startLine": 32,
+        "startChar": 8,
+        "endLine": 32,
+        "endChar": 30
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "454b9291_9acafe41",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Ditto",
+      "range": {
+        "startLine": 33,
+        "startChar": 24,
+        "endLine": 33,
+        "endChar": 35
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99b84765_701d7fa0",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Ditto",
+      "range": {
+        "startLine": 37,
+        "startChar": 16,
+        "endLine": 37,
+        "endChar": 36
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70674087_b2f52e5a",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Ditto",
+      "range": {
+        "startLine": 44,
+        "startChar": 12,
+        "endLine": 44,
+        "endChar": 62
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fda841b5_7587a6b1",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Ditto",
+      "range": {
+        "startLine": 45,
+        "startChar": 12,
+        "endLine": 45,
+        "endChar": 37
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d66efad_e4748a2a",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Ditto",
+      "range": {
+        "startLine": 46,
+        "startChar": 12,
+        "endLine": 46,
+        "endChar": 38
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c2e5511_1f47b741",
+        "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T23:47:34Z",
+      "side": 1,
+      "message": "Wasn\u0027t compiling when referencing the special use variable",
+      "range": {
+        "startLine": 52,
+        "startChar": 12,
+        "endLine": 52,
+        "endChar": 20
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
