@@ -1,0 +1,13 @@
+<!--
+  SPDX-FileCopyrightText: 2024 The Calyx Institute
+  SPDX-License-Identifier: Apache-2.0
+  -->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_DEFAULT_INTERNET"
+        app:summary="@string/pref_default_internet_summary"
+        app:title="@string/pref_default_internet_title" />
+</PreferenceScreen>
