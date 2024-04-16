@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7fd07887_e2bf877c",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-16T18:29:39Z",
+      "side": 1,
+      "message": "If it will only be used from the broadcast receiver then maybe this doesn\u0027t apply",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 42
+      },
+      "revId": "591b6274b7e60b30f93dbdbc8e61052081aea4e9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
