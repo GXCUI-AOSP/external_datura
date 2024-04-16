@@ -13,6 +13,7 @@
     <uses-permission android:name="android.permission.NETWORK_STACK" />
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="lineageos.permission.WRITE_SECURE_SETTINGS" />
 
     <application
         android:name=".DaturaApp"
