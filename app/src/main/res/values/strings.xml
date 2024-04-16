@@ -36,4 +36,7 @@
 
     <!-- Work Fragment -->
     <string name="work_profile_help">Firewall settings for work apps are managed in your personal profile’s Firewall app. Work apps have a briefcase icon on them.</string>
+
+    <!-- SettingsFragment -->
+    <string name="settings">Settings</string>
 </resources>
