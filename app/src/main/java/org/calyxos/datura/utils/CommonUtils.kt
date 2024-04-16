@@ -27,7 +27,8 @@ import java.util.Calendar
 
 object CommonUtils {
 
-    val TAG = "CommonUtils"
+    const val PREFERENCE_DEFAULT_INTERNET = "PREFERENCE_DEFAULT_INTERNET"
+    private const val TAG = "CommonUtils"
 
     fun getAllPackagesWithHeader(context: Context): List<DaturaItem> {
         val appList = getAllPackages(context).toMutableList()
@@ -76,7 +77,7 @@ object CommonUtils {
         return applicationList
     }
 
-    private fun getIconForPackage(
+    fun getIconForPackage(
         packageManager: PackageManager,
         packageInfo: PackageInfo
     ): Bitmap {
