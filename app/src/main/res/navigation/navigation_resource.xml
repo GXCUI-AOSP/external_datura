@@ -24,4 +24,8 @@
         android:name="org.calyxos.datura.work.WorkFragment"
         android:label="fragment_work"
         tools:layout="@layout/fragment_work" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="org.calyxos.datura.settings.SettingsFragment"
+        android:label="@string/settings" />
 </navigation>
