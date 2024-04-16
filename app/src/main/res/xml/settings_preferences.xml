@@ -4,4 +4,10 @@
   -->
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:icon="@drawable/ic_install"
+        app:key="PREFERENCE_DEFAULT_INTERNET"
+        app:summary="@string/pref_default_internet_summary"
+        app:title="@string/pref_default_internet_title" />
 </PreferenceScreen>

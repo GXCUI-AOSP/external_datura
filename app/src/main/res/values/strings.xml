@@ -39,4 +39,6 @@
 
     <!-- SettingsFragment -->
     <string name="settings">Settings</string>
+    <string name="pref_default_internet_title">Allow internet for new installs</string>
+    <string name="pref_default_internet_summary">New apps installs are allowed to access internet by default</string>
 </resources>
