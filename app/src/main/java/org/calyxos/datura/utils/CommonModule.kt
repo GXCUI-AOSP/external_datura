@@ -6,7 +6,9 @@
 package org.calyxos.datura.utils
 
 import android.content.Context
+import android.content.SharedPreferences
 import android.net.NetworkPolicyManager
+import androidx.preference.PreferenceManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -22,5 +24,11 @@ object CommonModule {
     @Provides
     fun providesNetworkPolicyManager(@ApplicationContext context: Context): NetworkPolicyManager {
         return NetworkPolicyManager.from(context)
+    }
+
+    @Singleton
+    @Provides
+    fun providesDefaultSharedPreferences(@ApplicationContext context: Context): SharedPreferences {
+        return PreferenceManager.getDefaultSharedPreferences(context)
     }
 }

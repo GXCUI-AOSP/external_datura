@@ -18,7 +18,13 @@
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 
+    <!-- Preference Theme -->
     <style name="PreferenceTheme" parent="PreferenceThemeOverlay">
         <item name="android:layout">@layout/fragment_settings</item>
+        <item name="switchPreferenceCompatStyle">@style/SwitchPreferenceTheme</item>
+    </style>
+
+    <style name="SwitchPreferenceTheme" parent="@style/Preference.SwitchPreferenceCompat.Material">
+        <item name="widgetLayout">@layout/preference_material_switch</item>
     </style>
 </resources>
