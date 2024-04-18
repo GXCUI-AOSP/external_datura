@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7347d0b9_99178da0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-18T12:20:27Z",
+      "side": 1,
+      "message": "Nit: I\u0027d just mention the version here directly",
+      "revId": "af5d0bddd57b1aab3ca42f3b57679a1bf468d15c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
