@@ -16,4 +16,11 @@
         app:summary="@string/notifications_desc"
         app:icon="@drawable/ic_notifications"
         app:title="@string/notifications" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:iconSpaceReserved="false"
+        app:key="cleartext_network_policy"
+        app:summary="@string/cleartext_network_policy_summary"
+        app:title="@string/cleartext_network_policy_title" />
 </PreferenceScreen>
