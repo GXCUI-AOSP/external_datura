@@ -12,6 +12,9 @@ import android.net.NetworkPolicyManager.POLICY_REJECT_CELLULAR
 import android.net.NetworkPolicyManager.POLICY_REJECT_METERED_BACKGROUND
 import android.net.NetworkPolicyManager.POLICY_REJECT_VPN
 import android.net.NetworkPolicyManager.POLICY_REJECT_WIFI
+import android.os.INetworkManagementService
+import android.os.StrictMode.NETWORK_POLICY_ACCEPT
+import android.os.StrictMode.NETWORK_POLICY_REJECT
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,7 +38,8 @@ import javax.inject.Singleton
 
 class AppListRVAdapter @Inject constructor(
     daturaItemDiffUtil: DaturaItemDiffUtil,
-    private val networkPolicyManager: NetworkPolicyManager
+    private val networkPolicyManager: NetworkPolicyManager,
+    private val networkManagementService: INetworkManagementService
 ) : ListAdapter<DaturaItem, RecyclerView.ViewHolder>(daturaItemDiffUtil) {
 
     inner class AppViewHolder(val binding: RecyclerViewAppListBinding) :
@@ -191,6 +195,31 @@ class AppListRVAdapter @Inject constructor(
                             )
                         }
                     }
+                }
+            }
+
+            holder.binding.expandLayout.cleartextSwitch.apply {
+                setOnCheckedChangeListener(null)
+
+                // Ensure main switch is enabled before enabling child switches
+                isEnabled = app.requestsInternetPermission && mainSwitchEnabled
+
+                isChecked = networkManagementService.getUidCleartextNetworkPolicy(app.uid) == NETWORK_POLICY_ACCEPT
+
+                setOnCheckedChangeListener { view, isChecked ->
+                    if (view.isVisible) {
+                        networkManagementService.setUidCleartextNetworkPolicy(
+                            app.uid,
+                            if (isChecked) NETWORK_POLICY_ACCEPT else NETWORK_POLICY_REJECT
+                        )
+                    }
+
+                    // Reflect appropriate settings status
+                    updateSettingsText(
+                        settingsMode,
+                        setOf(this),
+                        app.requestsInternetPermission
+                    )
                 }
             }
 
