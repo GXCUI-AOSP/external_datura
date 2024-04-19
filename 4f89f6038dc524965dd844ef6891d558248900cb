@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74279e95_d0d6d7b0",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-19T01:35:56Z",
+      "side": 1,
+      "message": "Probably need to change what we send based on global state.\nIf global state is normal, this feature should only set reject or remove the rule (INVALID iirc). Otherwise if global state is reject, this feature should only set allow or remove the rule",
+      "range": {
+        "startLine": 213,
+        "startChar": 28,
+        "endLine": 213,
+        "endChar": 91
+      },
+      "revId": "4f89f6038dc524965dd844ef6891d558248900cb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "952ec9e1_119557b2",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-19T01:35:56Z",
+      "side": 1,
+      "message": "Text would need to take into account the global state too I think",
+      "range": {
+        "startLine": 218,
+        "startChar": 20,
+        "endLine": 222,
+        "endChar": 21
+      },
+      "revId": "4f89f6038dc524965dd844ef6891d558248900cb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
