@@ -9,6 +9,8 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.net.NetworkPolicyManager
 import androidx.preference.PreferenceManager
+import android.os.INetworkManagementService
+import android.os.ServiceManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -30,5 +32,11 @@ object CommonModule {
     @Provides
     fun providesDefaultSharedPreferences(@ApplicationContext context: Context): SharedPreferences {
         return PreferenceManager.getDefaultSharedPreferences(context)
+    }
+
+    fun providesNetworkManagementService(): INetworkManagementService {
+        return INetworkManagementService.Stub.asInterface(
+            ServiceManager.getService(Context.NETWORKMANAGEMENT_SERVICE)
+        )
     }
 }
