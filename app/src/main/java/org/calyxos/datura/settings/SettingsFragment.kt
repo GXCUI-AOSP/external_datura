@@ -7,16 +7,19 @@ package org.calyxos.datura.settings
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.StrictMode
+import android.provider.Settings
 import android.view.View
 import androidx.navigation.fragment.findNavController
-import android.provider.Settings
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import dagger.hilt.android.AndroidEntryPoint
+import lineageos.providers.LineageSettings
 import org.calyxos.datura.R
 import org.calyxos.datura.databinding.FragmentSettingsBinding
 import org.calyxos.datura.service.DaturaService
+import org.calyxos.datura.utils.CommonUtils.PREFERENCE_CLEARTEXT
 import org.calyxos.datura.utils.CommonUtils.PREFERENCE_DEFAULT_INTERNET
 import org.calyxos.datura.utils.CommonUtils.PREFERENCE_NOTIFICATIONS
 
@@ -56,6 +59,26 @@ class SettingsFragment : PreferenceFragmentCompat() {
                     startActivity(it)
                 }
                 true
+            }
+        }
+
+        findPreference<SwitchPreferenceCompat>(PREFERENCE_CLEARTEXT)?.let {
+            it.isChecked = LineageSettings.Global.getInt(
+                requireContext().contentResolver,
+                LineageSettings.Global.CLEARTEXT_NETWORK_POLICY,
+                StrictMode.NETWORK_POLICY_INVALID
+            ) == StrictMode.NETWORK_POLICY_REJECT
+
+            it.setOnPreferenceChangeListener { _, newValue ->
+                LineageSettings.Global.putInt(
+                    context?.contentResolver,
+                    LineageSettings.Global.CLEARTEXT_NETWORK_POLICY,
+                    if (newValue as Boolean) {
+                        StrictMode.NETWORK_POLICY_REJECT
+                    } else {
+                        StrictMode.NETWORK_POLICY_INVALID
+                    }
+                )
             }
         }
     }
