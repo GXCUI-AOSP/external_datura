@@ -34,7 +34,7 @@ class MainActivityViewModel @Inject constructor(
         _appList.value = getAppList()
     }
 
-    private fun getAppList(): List<DaturaItem> {
+    fun getAppList(): List<DaturaItem> {
         return CommonUtils.getAllPackagesWithHeader(context)
     }
 
