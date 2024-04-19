@@ -7,6 +7,8 @@ package org.calyxos.datura.utils
 
 import android.content.Context
 import android.net.NetworkPolicyManager
+import android.os.INetworkManagementService
+import android.os.ServiceManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -22,5 +24,13 @@ object CommonModule {
     @Provides
     fun providesNetworkPolicyManager(@ApplicationContext context: Context): NetworkPolicyManager {
         return NetworkPolicyManager.from(context)
+    }
+
+    @Singleton
+    @Provides
+    fun providesNetworkManagementService(): INetworkManagementService {
+        return INetworkManagementService.Stub.asInterface(
+            ServiceManager.getService(Context.NETWORKMANAGEMENT_SERVICE)
+        )
     }
 }
