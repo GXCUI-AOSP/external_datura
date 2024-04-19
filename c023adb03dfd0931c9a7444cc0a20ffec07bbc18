@@ -16,6 +16,24 @@
       "message": "```\ne: app/src/main/java/org/calyxos/datura/main/MainActivity.kt:22:54 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UserManager?\ne: app/src/main/java/org/calyxos/datura/receiver/PackageReceiver.kt:29:25 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type NetworkPolicyManager?\ne: app/src/main/java/org/calyxos/datura/service/ForegroundService.kt:40:58 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type NotificationManager?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:53:47 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type ApplicationInfo?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:62:35 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type ApplicationInfo?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:66:35 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type ApplicationInfo?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:83:47 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type ApplicationInfo?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:84:84 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type ApplicationInfo?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:100:33 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UsageStatsManager?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:111:47 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type UserManager?\ne: app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt:116:71 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type ApplicationInfo?\ne: app/src/main/java/org/calyxos/datura/work/WorkFragment.kt:29:46 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type CrossProfileApps?\ne: app/src/main/java/org/calyxos/datura/work/WorkFragment.kt:31:36 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type CrossProfileApps?\ne: app/src/main/java/org/calyxos/datura/work/WorkFragment.kt:33:33 Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type CrossProfileApps?\n```",
       "revId": "c023adb03dfd0931c9a7444cc0a20ffec07bbc18",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ad670a6_4ba0df61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-19T19:28:00Z",
+      "side": 1,
+      "message": "Should fix these, separately if it\u0027s not related to code added in these patches",
+      "parentUuid": "08a6a0d8_20255775",
+      "revId": "c023adb03dfd0931c9a7444cc0a20ffec07bbc18",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
