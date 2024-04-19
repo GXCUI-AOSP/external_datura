@@ -5,8 +5,13 @@
 
 package org.calyxos.datura.main
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
 import android.os.Bundle
 import android.os.UserManager
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.NavHostFragment
@@ -15,6 +20,21 @@ import org.calyxos.datura.R
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
+    private val TAG = MainActivity::class.java.simpleName
+
+    private val packageReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            if (context != null && intent != null) {
+                when (intent.action) {
+                    Intent.ACTION_PACKAGE_ADDED,
+                    Intent.ACTION_PACKAGE_REMOVED -> recreate()
+                    else -> Log.i(TAG, "Got an unhandled action")
+                }
+            }
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,6 +42,22 @@ class MainActivity : AppCompatActivity() {
         if (getSystemService(UserManager::class.java).isManagedProfile) {
             navigateToWorkFragment()
         }
+
+        registerReceiverForAllUsers(
+            packageReceiver,
+            IntentFilter().apply {
+                addAction(Intent.ACTION_PACKAGE_ADDED)
+                addAction(Intent.ACTION_PACKAGE_REMOVED)
+                addDataScheme("package")
+            },
+            null,
+            null
+        )
+    }
+
+    override fun onDestroy() {
+        unregisterReceiver(packageReceiver)
+        super.onDestroy()
     }
 
     private fun navigateToWorkFragment() {
