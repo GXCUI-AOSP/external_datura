@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8007f365_f1620baa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-22T18:40:34Z",
+      "side": 1,
+      "message": "The allow button in the notification seems to work but doesn\u0027t currently dismiss the notification?",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f896d032_69084378",
         "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
         "patchSetId": 4
