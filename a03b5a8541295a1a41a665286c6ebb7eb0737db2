@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8dda68fb_9bd682e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:18:23Z",
+      "side": 1,
+      "message": "(I know you didn\u0027t ask for a review at this stage, but I was curious to try out all of this, since I\u0027m looking forward to using it myself!)",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f896d032_69084378",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:18:23Z",
+      "side": 1,
+      "message": "Between the time the notification was posted and the time the user interacted with it, the app may have been uninstalled. In that case, we don\u0027t want to mess with the policy. That way we don\u0027t have to worry about edge cases, like if a new app gets installed with that same UID and ends up being affected here somehow.\n\nMaybe before acting, we can query the UID and make sure its package name matches `packageName`, just to be sure that 1) it\u0027s installed, and 2) it\u0027s actually the same package (or same package name at least)?\n\nI guess another option could be to remove the notification if the UID gets uninstalled, if we were listening to that broadcast.",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c162cae4_1a296bf9",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:18:23Z",
+      "side": 1,
+      "message": "It looks like `packageName!!.hashCode()` isn\u0027t correct...? If it were correct, we shouldn\u0027t use it because the package might be installed in a work profile, so the package name isn\u0027t enough to differentiate between notifications, right?",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0396576f_ff6673fe",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:18:23Z",
+      "side": 1,
+      "message": "This change (checking if an app requests internet permission), and the related code to support it, may be better handled in the parent change, since it affects more than the notification alone.\n\nAnd I think this is a good change, too, since we already have code elsewhere (in the framework) to make sure apps that don\u0027t use internet will have it auto-denied if they are later upgraded to add it. It\u0027s probably good that we don\u0027t do this in two different places if we don\u0027t need to.",
+      "range": {
+        "startLine": 53,
+        "startChar": 33,
+        "endLine": 53,
+        "endChar": 63
+      },
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
