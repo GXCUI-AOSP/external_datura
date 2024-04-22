@@ -6,6 +6,7 @@
 package org.calyxos.datura.service
 
 import android.Manifest
+import android.app.NotificationManager
 import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -22,10 +23,15 @@ import dagger.hilt.android.AndroidEntryPoint
 import org.calyxos.datura.models.MinimalApp
 import org.calyxos.datura.utils.CommonUtils
 import org.calyxos.datura.utils.CommonUtils.PREFERENCE_DEFAULT_INTERNET
+import org.calyxos.datura.utils.NotificationUtil
 import javax.inject.Inject
 
 @AndroidEntryPoint
 class DaturaService: Service() {
+
+    companion object {
+        const val ACTION_ALLOW_INTERNET_ACCESS = "org.calyxos.datura.ACTION_ALLOW_INTERNET_ACCESS"
+    }
 
     @Inject
     lateinit var netPolicyManager: NetworkPolicyManager
@@ -33,6 +39,7 @@ class DaturaService: Service() {
     @Inject
     lateinit var sharedPreferences: SharedPreferences
 
+    private lateinit var notificationManager: NotificationManager
     private val TAG = DaturaService::class.java.simpleName
 
     private val packageReceiver = object : BroadcastReceiver() {
@@ -49,6 +56,10 @@ class DaturaService: Service() {
                             app.uid,
                             NetworkPolicyManager.POLICY_REJECT_ALL
                         )
+                        notificationManager.notify(
+                            app.packageName.hashCode() + UserHandle.getUserId(Process.myUid()),
+                            NotificationUtil.getNewAppNotification(context, app)
+                        )
                     }
                 }
             }
@@ -61,6 +72,12 @@ class DaturaService: Service() {
 
     override fun onCreate() {
         super.onCreate()
+
+        notificationManager = getSystemService(NotificationManager::class.java)
+        notificationManager.createNotificationChannel(
+            NotificationUtil.getAlertNotificationChannel(this)
+        )
+
         registerReceiver(packageReceiver, IntentFilter().apply {
             addAction(Intent.ACTION_PACKAGE_ADDED)
             addDataScheme("package")
