@@ -28,6 +28,8 @@ import java.util.Calendar
 object CommonUtils {
 
     const val PREFERENCE_DEFAULT_INTERNET = "PREFERENCE_DEFAULT_INTERNET"
+    const val PREFERENCE_NOTIFICATIONS = "PREFERENCE_NOTIFICATIONS"
+
     private const val TAG = "CommonUtils"
 
     fun getAllPackagesWithHeader(context: Context): List<DaturaItem> {
