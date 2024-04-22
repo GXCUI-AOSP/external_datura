@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2d3bff2_eaad87db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-22T18:44:03Z",
+      "side": 1,
+      "message": "This doesn\u0027t work exactly the same as the current setting since it doesn\u0027t grey out based on if private DNS is set or not at the moment. That said, I am not seeing the issues we once had when private DNS was not set and enabling this feature?",
+      "revId": "e36db94cfecdc51b4a13e701eec9edad6f11fd4b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
