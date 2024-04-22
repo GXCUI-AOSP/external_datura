@@ -9,6 +9,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.findNavController
+import android.provider.Settings
+import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import dagger.hilt.android.AndroidEntryPoint
@@ -17,6 +19,7 @@ import org.calyxos.datura.R
 import org.calyxos.datura.databinding.FragmentSettingsBinding
 import org.calyxos.datura.service.DaturaService
 import org.calyxos.datura.utils.CommonUtils.PREFERENCE_DEFAULT_INTERNET
+import org.calyxos.datura.utils.CommonUtils.PREFERENCE_NOTIFICATIONS
 
 @AndroidEntryPoint
 class SettingsFragment : PreferenceFragmentCompat() {
@@ -52,6 +55,16 @@ class SettingsFragment : PreferenceFragmentCompat() {
                         1
                     }
                 )
+            }
+        }
+
+        findPreference<Preference>(PREFERENCE_NOTIFICATIONS)?.apply {
+            setOnPreferenceClickListener {
+                Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).also {
+                    it.putExtra(Settings.EXTRA_APP_PACKAGE, context.packageName)
+                    startActivity(it)
+                }
+                true
             }
         }
     }
