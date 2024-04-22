@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1a543395_0c4d51b3",
+        "filename": "app/src/main/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:35:46Z",
+      "side": 1,
+      "message": "Yes, this currently does stop working after a reboot.",
+      "parentUuid": "373e32f7_f6dc7994",
+      "range": {
+        "startLine": 34,
+        "startChar": 8,
+        "endLine": 38,
+        "endChar": 18
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d8faec3d_9294a8bb",
         "filename": "app/src/main/java/org/calyxos/datura/service/ForegroundService.kt",
         "patchSetId": 1
