@@ -16,6 +16,23 @@
       "message": "If you hide and unhide an app, it is treated as a new install (Datura doesn\u0027t know any better) and the app loses network access.",
       "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "160bd8ee_236f0e65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:45:12Z",
+      "side": 1,
+      "message": "This stops working sometimes, even without rebooting. It\u0027ll work for an app or two, you forget about it, and then try installing another app and it\u0027s not blocked.",
+      "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
