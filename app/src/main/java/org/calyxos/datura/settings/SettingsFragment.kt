@@ -72,6 +72,16 @@ class SettingsFragment : PreferenceFragmentCompat() {
                 true
             }
         }
+
+        findPreference<Preference>(PREFERENCE_NOTIFICATIONS)?.apply {
+            setOnPreferenceClickListener {
+                Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).also {
+                    it.putExtra(Settings.EXTRA_APP_PACKAGE, context.packageName)
+                    startActivity(it)
+                }
+                true
+            }
+        }
     }
 
     override fun onDestroyView() {
