@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9cd8235e_7f4f325d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-22T18:41:57Z",
+      "side": 1,
+      "message": "I think that might be because it\u0027s canceling with an ID represented by the hashcode of the package name, which isn\u0027t used elsewhere (mentioned in another comment)?",
+      "parentUuid": "8007f365_f1620baa",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f896d032_69084378",
         "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
         "patchSetId": 4
