@@ -10,4 +10,10 @@
         app:key="PREFERENCE_DEFAULT_INTERNET"
         app:summary="@string/pref_default_internet_summary"
         app:title="@string/pref_default_internet_title" />
+
+    <Preference
+        app:key="PREFERENCE_NOTIFICATIONS"
+        app:summary="@string/notifications_desc"
+        app:icon="@drawable/ic_notifications"
+        app:title="@string/notifications" />
 </PreferenceScreen>
