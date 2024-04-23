@@ -37,7 +37,7 @@ class DaturaService : Service() {
 
         override fun onReceive(context: Context?, intent: Intent?) {
             if (context != null && intent?.action == Intent.ACTION_PACKAGE_ADDED) {
-                val app = getMinimalApp(intent.data!!.encodedSchemeSpecificPart)
+                val app = getMinimalApp(intent.data!!.encodedSchemeSpecificPart) ?: return
                 val isUpdate = intent.getBooleanExtra(Intent.EXTRA_REPLACING, false)
 
                 if (!isUpdate && app.requestsInternetPermission) {
@@ -65,7 +65,7 @@ class DaturaService : Service() {
     override fun onCreate() {
         super.onCreate()
 
-        notificationManager = getSystemService(NotificationManager::class.java)
+        notificationManager = getSystemService(NotificationManager::class.java)!!
         notificationManager.createNotificationChannel(
             NotificationUtil.getAlertNotificationChannel(this)
         )
@@ -84,20 +84,26 @@ class DaturaService : Service() {
         super.onDestroy()
     }
 
-    private fun getMinimalApp(packageName: String): MinimalApp {
+    private fun getMinimalApp(packageName: String): MinimalApp? {
         val packageInfo = packageManager.getPackageInfoAsUser(
             packageName,
             PackageManager.PackageInfoFlags.of(PackageManager.GET_PERMISSIONS.toLong()),
             UserHandle.getUserId(Process.myUid())
         )
+
+        if (!Process.isApplicationUid(packageInfo.applicationInfo?.uid ?: Process.INVALID_UID)) {
+            Log.i(TAG, "$packageName is not an app")
+            return null
+        }
+
         val requestsInternetPerm =
             packageInfo.requestedPermissions?.contains(Manifest.permission.INTERNET) ?: false
 
         return MinimalApp(
-            name = packageInfo.applicationInfo.loadLabel(packageManager).toString(),
+            name = packageInfo.applicationInfo!!.loadLabel(packageManager).toString(),
             packageName = packageInfo.packageName,
             icon = CommonUtils.getIconForPackage(packageManager, packageInfo),
-            uid = packageInfo.applicationInfo.uid,
+            uid = packageInfo.applicationInfo!!.uid,
             requestsInternetPermission = requestsInternetPerm
         )
     }
