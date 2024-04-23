@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "259a9d93_cd39276f",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-23T19:30:31Z",
+      "side": 1,
+      "message": "The global cleartext toggle adds additional restriction on apps when enabled. It does nothing when disabled.\n\nGlobal cleartext off -\u003e default AOSP behavior. No changes to apps.\nGlobal cleartext on -\u003e new CalyxOS change / optional behavior. All apps get a cleartext restriction.",
+      "parentUuid": "4d6b65e2_35c1589d",
+      "range": {
+        "startLine": 213,
+        "startChar": 28,
+        "endLine": 213,
+        "endChar": 91
+      },
+      "revId": "4f89f6038dc524965dd844ef6891d558248900cb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "952ec9e1_119557b2",
         "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
         "patchSetId": 3
