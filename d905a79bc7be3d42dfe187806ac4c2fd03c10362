@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad6c91bc_b035a7b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-23T18:06:14Z",
+      "side": 1,
+      "message": "Does this android.jar include https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/25957?",
+      "revId": "d905a79bc7be3d42dfe187806ac4c2fd03c10362",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
