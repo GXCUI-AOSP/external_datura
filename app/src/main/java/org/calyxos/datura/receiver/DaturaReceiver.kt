@@ -33,7 +33,7 @@ class DaturaReceiver : BroadcastReceiver() {
                 Log.i(TAG, "Allowing internet access for $uid")
                 netPolicyManager.removeUidPolicy(uid, NetworkPolicyManager.POLICY_REJECT_ALL)
                 context.getSystemService(NotificationManager::class.java)
-                    .cancel(packageName!!.hashCode() + uid)
+                    ?.cancel(packageName!!.hashCode() + uid)
             }
         }
     }
