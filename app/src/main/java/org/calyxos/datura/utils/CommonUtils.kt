@@ -53,7 +53,7 @@ object CommonUtils {
         val packageList = getAppsInstalledForAllUsers(context)
 
         packageList.forEach {
-            val systemApp = it.applicationInfo.flags and ApplicationInfo.FLAG_SYSTEM != 0
+            val systemApp = it.applicationInfo!!.flags and ApplicationInfo.FLAG_SYSTEM != 0
             val requestsInternetPermission =
                 it.requestedPermissions?.contains(Manifest.permission.INTERNET) ?: false
 
@@ -62,11 +62,11 @@ object CommonUtils {
             if (systemApp && !requestsInternetPermission) return@forEach
 
             val app = App(
-                it.applicationInfo.loadLabel(packageManager).toString(),
+                it.applicationInfo!!.loadLabel(packageManager).toString(),
                 it.packageName,
                 getIconForPackage(packageManager, it),
                 systemApp,
-                it.applicationInfo.uid,
+                it.applicationInfo!!.uid,
                 requestsInternetPermission,
                 false,
                 usageStatsList.firstOrNull { u -> u.packageName == it.packageName }?.lastTimeUsed
@@ -83,8 +83,8 @@ object CommonUtils {
         packageManager: PackageManager,
         packageInfo: PackageInfo
     ): Bitmap {
-        val icon = packageInfo.applicationInfo.loadIcon(packageManager)
-        val userHandle = UserHandle.getUserHandleForUid(packageInfo.applicationInfo.uid)
+        val icon = packageInfo.applicationInfo!!.loadIcon(packageManager)
+        val userHandle = UserHandle.getUserHandleForUid(packageInfo.applicationInfo!!.uid)
         val badgedIcon = if (icon.intrinsicWidth > 0 && icon.intrinsicHeight > 0) {
             packageManager.getUserBadgedIcon(icon, userHandle)
         } else {
@@ -95,7 +95,8 @@ object CommonUtils {
     }
 
     private fun getUsageStats(context: Context): List<UsageStats> {
-        val usageStatsManager = context.getSystemService(UsageStatsManager::class.java)
+        val usageStatsManager =
+            context.getSystemService(UsageStatsManager::class.java) ?: return emptyList()
         val calendar = Calendar.getInstance()
         val endTime = calendar.timeInMillis
         calendar.add(Calendar.YEAR, -1)
@@ -110,13 +111,15 @@ object CommonUtils {
     // Lint complains about missing methods but they are available
     private fun getAppsInstalledForAllUsers(context: Context): List<PackageInfo> {
         val packages = mutableListOf<PackageInfo>()
-        val userManager = context.getSystemService(UserManager::class.java)
+        val userManager = context.getSystemService(UserManager::class.java)!!
         UserHandle.fromUserHandles(userManager.userProfiles).forEach { userID ->
             packages.addAll(
                 context.packageManager.getInstalledPackagesAsUser(
                     PackageInfoFlags.of(PackageManager.GET_PERMISSIONS.toLong()),
                     userID
-                ).filter { Process.isApplicationUid(it.applicationInfo.uid) }
+                ).filter {
+                    Process.isApplicationUid(it.applicationInfo?.uid ?: Process.INVALID_UID)
+                }
             )
         }
         return packages
