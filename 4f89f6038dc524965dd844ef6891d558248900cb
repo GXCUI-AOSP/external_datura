@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4d6b65e2_35c1589d",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-23T18:37:11Z",
+      "side": 1,
+      "message": "This sounds like it could be tricky... I haven\u0027t messed with the cleartext feature or its implementation much, so I\u0027d have to look at that more.\n\nSounds like we may need to change the code around the global toggle too, right?, since we also don\u0027t want the global toggle to allow this for apps that individually are set to reject it.",
+      "parentUuid": "74279e95_d0d6d7b0",
+      "range": {
+        "startLine": 213,
+        "startChar": 28,
+        "endLine": 213,
+        "endChar": 91
+      },
+      "revId": "4f89f6038dc524965dd844ef6891d558248900cb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "952ec9e1_119557b2",
         "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
         "patchSetId": 3
