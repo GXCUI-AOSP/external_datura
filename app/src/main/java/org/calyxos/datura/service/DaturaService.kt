@@ -49,8 +49,7 @@ class DaturaService : Service() {
                         Intent.ACTION_PACKAGE_ADDED -> {
                             val app = getMinimalApp(packageName, uid)
                             val isUpdate = intent.getBooleanExtra(Intent.EXTRA_REPLACING, false)
-
-                            if (!isUpdate && app.requestsInternetPermission) {
+                            if (!isUpdate && app?.requestsInternetPermission == true) {
                                 if (LineageSettings.Secure.getInt(
                                         context.contentResolver,
                                         LineageSettings.Secure.DEFAULT_RESTRICT_NETWORK_DATA,
@@ -90,7 +89,7 @@ class DaturaService : Service() {
     override fun onCreate() {
         super.onCreate()
 
-        notificationManager = getSystemService(NotificationManager::class.java)
+        notificationManager = getSystemService(NotificationManager::class.java)!!
         notificationManager.createNotificationChannels(
             NotificationUtil.getNotificationChannels(this)
         )
@@ -113,7 +112,7 @@ class DaturaService : Service() {
         startForeground(
             100,
             NotificationUtil.getFGSNotification(this),
-            1 shl 30 // ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
+            ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
         )
         return super.onStartCommand(intent, flags, startId)
     }
@@ -129,11 +128,17 @@ class DaturaService : Service() {
             PackageManager.PackageInfoFlags.of(PackageManager.GET_PERMISSIONS.toLong()),
             UserHandle.getUserId(uid)
         )
+
+        if (!Process.isApplicationUid(packageInfo.applicationInfo?.uid ?: Process.INVALID_UID)) {
+            Log.i(TAG, "$packageName is not an app")
+            return null
+        }
+
         val requestsInternetPerm =
             packageInfo.requestedPermissions?.contains(Manifest.permission.INTERNET) ?: false
 
         return MinimalApp(
-            name = packageInfo.applicationInfo.loadLabel(packageManager).toString(),
+            name = packageInfo.applicationInfo!!.loadLabel(packageManager).toString(),
             packageName = packageInfo.packageName,
             icon = CommonUtils.getIconForPackage(packageManager, packageInfo),
             uid = uid,
