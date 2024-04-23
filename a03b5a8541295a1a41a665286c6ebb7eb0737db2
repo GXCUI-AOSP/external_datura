@@ -88,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "03b01bc7_81ad1438",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-04-23T14:57:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "874d632f_482c9735",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f896d032_69084378",
@@ -122,6 +140,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37d0f0e4_be34682c",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-04-23T14:57:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c162cae4_1a296bf9",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0396576f_ff6673fe",
@@ -135,6 +171,30 @@
       "writtenOn": "2024-04-22T18:18:23Z",
       "side": 1,
       "message": "This change (checking if an app requests internet permission), and the related code to support it, may be better handled in the parent change, since it affects more than the notification alone.\n\nAnd I think this is a good change, too, since we already have code elsewhere (in the framework) to make sure apps that don\u0027t use internet will have it auto-denied if they are later upgraded to add it. It\u0027s probably good that we don\u0027t do this in two different places if we don\u0027t need to.",
+      "range": {
+        "startLine": 53,
+        "startChar": 33,
+        "endLine": 53,
+        "endChar": 63
+      },
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb580832_81fa48ce",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-04-23T14:57:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0396576f_ff6673fe",
       "range": {
         "startLine": 53,
         "startChar": 33,
