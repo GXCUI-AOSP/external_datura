@@ -85,7 +85,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
         }
 
         findPreference<SwitchPreferenceCompat>(PREFERENCE_CLEARTEXT)?.let {
-            it.isVisible = requireContext().getSystemService(UserManager::class.java).isSystemUser
+            it.isVisible = requireContext().getSystemService(UserManager::class.java)!!.isSystemUser
             it.isChecked = isGlobalClearTextEnabled(requireContext())
             it.isEnabled = isGlobalClearTextPrefEnabled(requireContext())
 
