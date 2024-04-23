@@ -50,6 +50,24 @@
       "message": "Unfortunately, `com.android.statementservice` (Intent Filter Verification Service) reacts more quickly than Datura, so e.g. if you install Facebook, and Datura \"blocks\" it, it doesn\u0027t successfully block it the first time for DNS lookups for Facebook. Still blocks it for updates.\n\nSee this older issue for more details: https://gitlab.com/CalyxOS/calyxos/-/issues/889",
       "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e1b417e_adb081b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-04-23T14:55:24Z",
+      "side": 1,
+      "message": "Not sure what we can do for this one. I feel to be faster, we will have to move this method in the frameworks.",
+      "parentUuid": "86f55afb_797ef249",
+      "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
