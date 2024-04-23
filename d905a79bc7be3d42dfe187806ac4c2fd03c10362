@@ -16,6 +16,24 @@
       "message": "Does this android.jar include https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/25957?",
       "revId": "d905a79bc7be3d42dfe187806ac4c2fd03c10362",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76a96a65_ffecb022",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-04-23T18:07:11Z",
+      "side": 1,
+      "message": "It is the one you included in the other change. I simply downloaded and moved it to this change here",
+      "parentUuid": "ad6c91bc_b035a7b0",
+      "revId": "d905a79bc7be3d42dfe187806ac4c2fd03c10362",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
