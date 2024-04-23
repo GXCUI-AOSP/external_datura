@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7d7a6630_60846756",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-23T19:48:07Z",
+      "side": 1,
+      "message": "Okay, yeah, the concerns I had look to be a non-issue, fortunately. I see that the global cleartext toggle is implemented with UID -1, rather than going through and calling it for every UID or something like that, which is one of the things I wanted to check.\n\nAnd from looking at the change to [netd\u0027s StrictController.cpp](https://review.calyxos.org/c/CalyxOS/platform_system_netd/+/21470/1/server/StrictController.cpp), because the UID -1 rule is always appended and everything else is always inserted on top, there *shouldn\u0027t* be any conflicts with the global setting.",
+      "parentUuid": "259a9d93_cd39276f",
+      "range": {
+        "startLine": 213,
+        "startChar": 28,
+        "endLine": 213,
+        "endChar": 91
+      },
+      "revId": "4f89f6038dc524965dd844ef6891d558248900cb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "952ec9e1_119557b2",
         "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
         "patchSetId": 3
