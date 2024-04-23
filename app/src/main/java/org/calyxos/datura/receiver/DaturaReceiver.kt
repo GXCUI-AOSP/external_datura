@@ -33,7 +33,7 @@ class DaturaReceiver : BroadcastReceiver() {
             if (uid != Process.INVALID_UID) {
                 Log.i(TAG, "Allowing internet access for $uid")
                 netPolicyManager.removeUidPolicy(uid, NetworkPolicyManager.POLICY_REJECT_ALL)
-                context.getSystemService(NotificationManager::class.java)
+                context.getSystemService(NotificationManager::class.java)!!
                     .cancel(packageName!!.hashCode() + UserHandle.getUserId(Process.myUid()))
             }
         }

@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        if (getSystemService(UserManager::class.java).isManagedProfile) {
+        if (getSystemService(UserManager::class.java)?.isManagedProfile == true) {
             navigateToWorkFragment()
         }
     }

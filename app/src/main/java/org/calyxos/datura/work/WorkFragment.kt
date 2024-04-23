@@ -25,7 +25,7 @@ class WorkFragment : Fragment(R.layout.fragment_work) {
         _binding = FragmentWorkBinding.bind(view)
 
         binding.switchProfile.apply {
-            val crossProfileApps = view.context.getSystemService(CrossProfileApps::class.java)
+            val crossProfileApps = view.context.getSystemService(CrossProfileApps::class.java)!!
             val targetUser = crossProfileApps.targetUserProfiles.first()
 
             text = crossProfileApps.getProfileSwitchingLabel(targetUser)
