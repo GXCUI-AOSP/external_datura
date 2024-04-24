@@ -16,6 +16,24 @@
       "message": "So, currently if an app allows cleartext data (when globally restricted and user set the toggle for an app), if the user then were to toggle global off, the app is still allowed cleartext data in the backend (rule isn\u0027t removed). I would not be in favour of handling it in the backend since it would complicate system code a lot",
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f005738_0dfe6e06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-24T19:56:50Z",
+      "side": 1,
+      "message": "Also, these toggles may allow cleartext data for apps that requested it to be blocked in their manifest (when global restricts we show the option to allow cleartext data)?",
+      "parentUuid": "2189e97f_60a11f73",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
