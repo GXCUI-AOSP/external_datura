@@ -52,6 +52,24 @@
       "parentUuid": "5f005738_0dfe6e06",
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "297a6d94_054049a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-24T21:40:54Z",
+      "side": 1,
+      "message": "When the global state is toggled off, the app could send INVALID for all UIDs that had ACCEPT set possibly",
+      "parentUuid": "f975d8d4_fca633d4",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
