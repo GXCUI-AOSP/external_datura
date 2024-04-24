@@ -34,6 +34,24 @@
       "parentUuid": "2189e97f_60a11f73",
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f975d8d4_fca633d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-24T20:39:41Z",
+      "side": 1,
+      "message": "What other alternative do you propose for handling the first scenario.\n\nAs for the account for the manifest, my comment already should do that.\n\n```\nif targetSdk \u003c P\n  if cleartextTrafficPermitted !\u003d false\n    showToggle()\nelse\n  if cleartextTrafficPermitted \u003d\u003d true\n    showToggle()\n```\n\nThe `cleartextTrafficPermitted` refers to what they have set in their network security config which is set in the manifest. This should all just re-use / copy existing cleratext handling code in frameworks. It\u0027d have to be adapted to live here, but the business logic can remain the same.",
+      "parentUuid": "5f005738_0dfe6e06",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
