@@ -104,6 +104,24 @@
       "parentUuid": "50458541_12d0e001",
       "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53c249b1_e2bc8179",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-24T21:33:43Z",
+      "side": 1,
+      "message": "I was looking into what could be done about delivering the broadcast to this app before the other but it doesn\u0027t seem like there could be any guarantees given that they\u0027re supposed to be disaptched in parallel according to https://cs.android.com/android/platform/superproject/main/+/main:frameworks/base/services/core/java/com/android/server/pm/BroadcastHelper.java;l\u003d214?q\u003disModernQueueEnabled\nhttps://cs.android.com/android/platform/superproject/main/+/main:frameworks/base/services/core/java/com/android/server/am/BroadcastConstants.java;l\u003d134?q\u003dMODERN_QUEUE_ENABLED",
+      "parentUuid": "793deee7_e9803d59",
+      "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
