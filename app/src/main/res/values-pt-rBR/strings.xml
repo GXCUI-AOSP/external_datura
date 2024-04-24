@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_short_name">Firewall</string>
     <string name="installed_apps">Aplicativos instalados</string>
     <string name="system_apps">Aplicativos do sistema</string>
     <string name="allow_background_data">Permitir acesso à rede em segundo plano</string>
-    <string name="allow_wifi_data">Permitir dados de Wi-Fi</string>
+    <string name="allow_wifi_data">Permitir dados via Wi-Fi</string>
     <string name="allow_mobile_data">Permitir dados móveis</string>
-    <string name="allow_vpn_data">Permitir dados VPN</string>
+    <string name="allow_vpn_data">Permitir dados via VPN</string>
     <string name="sort_by_last_used">Classificar por último usado</string>
     <string name="sort_by_name">Classificar por nome</string>
     <string name="about">Sobre</string>
-    <string name="app_name">Datura Firewall</string>
-    <string name="about_summary">Um aplicativo de backup usando a API de backup interna do Android.</string>
+    <string name="app_name">Firewall Datura</string>
+    <string name="about_summary">Um aplicativo de firewall que usa a API interna de rede do Android.</string>
+    <string name="app_logo">Logo do aplicativo</string>
+    <string name="searchbar_hint">Pesquise por apps</string>
+    <string name="custom_settings">Configurações customizadas</string>
+    <string name="no_internet">O app não pede a permissão de rede</string>
+    <string name="about_foss">É licenciado e distribuído sob a <a href="https://www.apache.org/licenses/LICENSE-2.0">Licença Apache 2.0</a>. Veja arquivos para informações de detentor de direitos autoriais individuais.</string>
+    <string name="version">Versão: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="contributors_title">Contribuidores</string>
+    <string name="contributing_orgs_title">Organizações Contribuidoras</string>
+    <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Instituto Calyx</a> para o uso no <a href="https://calyxos.org">CalyxOS</a></string>
+    <string name="work_profile_help">Configurações de firewall para apps de trabalho são configuradas no app Firewall do seu perfil pessoal. Apps de trabalho têm um ícone de maleta neles.</string>
+    <string name="default_settings">Configurações padrão</string>
+    <string name="contributors_summary">Veja a <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">lista de contribuidores</a> no GitLab.</string>
 </resources>
