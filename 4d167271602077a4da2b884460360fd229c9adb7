@@ -16,6 +16,24 @@
       "message": "Line too long (nit but should fix)",
       "revId": "4d167271602077a4da2b884460360fd229c9adb7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f33e4a9_7cdb55e7",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 7
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-24T19:51:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95b99ea9_fcb9f06b",
+      "revId": "4d167271602077a4da2b884460360fd229c9adb7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

@@ -16,6 +16,24 @@
       "message": "TODO: Consider toggle visibility logic laid out in calyxos#345",
       "revId": "e1845079ac38e601a17bc4af32c593b35902d0e3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02997eae_711d3e64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-24T19:51:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3788997e_a0864af6",
+      "revId": "e1845079ac38e601a17bc4af32c593b35902d0e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
