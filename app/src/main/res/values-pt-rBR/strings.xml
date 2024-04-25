@@ -11,7 +11,7 @@
     <string name="sort_by_name">Classificar por nome</string>
     <string name="about">Sobre</string>
     <string name="app_name">Firewall Datura</string>
-    <string name="about_summary">Um aplicativo de firewall que usa a API interna de rede do Android.</string>
+    <string name="about_summary">Um aplicativo de firewall usando a API interna de rede do Android.</string>
     <string name="app_logo">Logo do aplicativo</string>
     <string name="searchbar_hint">Pesquisar por apps</string>
     <string name="custom_settings">Configurações customizadas</string>
