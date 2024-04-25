@@ -142,6 +142,24 @@
       "parentUuid": "c4806e8a_d3658392",
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7583177c_990e463b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-25T20:55:00Z",
+      "side": 1,
+      "message": "Pinged in group.",
+      "parentUuid": "4788b5d8_becefbbe",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
