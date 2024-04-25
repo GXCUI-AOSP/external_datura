@@ -106,6 +106,24 @@
       "parentUuid": "b752d53e_bb51b8fc",
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4806e8a_d3658392",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-25T19:54:13Z",
+      "side": 1,
+      "message": "If turning off via global toggle sets invalid states for all uids then that\u0027s what the getter would return wouldn\u0027t it?",
+      "parentUuid": "fd78da2c_ef985427",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
