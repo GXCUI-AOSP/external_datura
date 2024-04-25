@@ -124,6 +124,24 @@
       "parentUuid": "fd78da2c_ef985427",
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4788b5d8_becefbbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-25T20:07:02Z",
+      "side": 1,
+      "message": "I mean if we want to send invalid to only the ones that were not already",
+      "parentUuid": "c4806e8a_d3658392",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
