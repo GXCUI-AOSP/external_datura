@@ -39,6 +39,30 @@
       },
       "revId": "5db48c065a8661e612c02e227de46c05308eeebf",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9a9090e_366b779d",
+        "filename": "app/src/main/res/values-el/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-25T16:27:46Z",
+      "side": 1,
+      "message": "Fixed in 26009: Import translations from Weblate | https://review.calyxos.org/c/CalyxOS/platform_external_calyx_datura/+/26009",
+      "parentUuid": "1fb2aef5_eead8567",
+      "range": {
+        "startLine": 18,
+        "startChar": 35,
+        "endLine": 18,
+        "endChar": 83
+      },
+      "revId": "5db48c065a8661e612c02e227de46c05308eeebf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
