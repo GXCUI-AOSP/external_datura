@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab7dec9a_e480532c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-06T20:32:43Z",
+      "side": 1,
+      "message": "Taking the framework-based approach should allow the receivers and service to be removed?",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "73b69816_b5711fba",
         "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
         "patchSetId": 6

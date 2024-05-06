@@ -176,6 +176,24 @@
       "parentUuid": "891e42cf_e2c65eec",
       "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7576deda_7fc021ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-06T20:32:43Z",
+      "side": 1,
+      "message": "This should be resolved by the framework-based approach.",
+      "parentUuid": "ad6b1e75_82a421b8",
+      "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

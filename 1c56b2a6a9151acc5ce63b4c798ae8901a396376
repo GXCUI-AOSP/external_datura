@@ -72,6 +72,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e4f8c9f_6a984313",
+        "filename": "app/src/main/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-06T20:32:43Z",
+      "side": 1,
+      "message": "This should be resolved with the framework-based approach.",
+      "parentUuid": "1a543395_0c4d51b3",
+      "range": {
+        "startLine": 34,
+        "startChar": 8,
+        "endLine": 38,
+        "endChar": 18
+      },
+      "revId": "1c56b2a6a9151acc5ce63b4c798ae8901a396376",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d8faec3d_9294a8bb",
