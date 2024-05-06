@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73b69816_b5711fba",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-06T20:30:07Z",
+      "side": 1,
+      "message": "Does `LineageSettings.Global` affect the entire system? Would this impact secondary users while also allowing such users to toggle this and affect the entire system? Sorry, I didn\u0027t think of that until now...",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c75d4100_d598da9f",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-06T20:30:07Z",
+      "side": 1,
+      "message": "Can we call this something different than RESTRICTED_NETWORKING_MODE? Otherwise it will be pretty confusing, since that is a separate feature. (This will require changes elsewhere, too.)\n\nWhat about something more accurate and descriptive, or that matches somewhat with existing titles such as the preference name above? Maybe `FIREWALL_DEFAULT_INTERNET_ALLOWED` or that sort of thing?",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
