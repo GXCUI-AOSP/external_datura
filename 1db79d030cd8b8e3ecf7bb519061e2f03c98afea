@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e03dc7ad_581a2421",
+        "filename": "app/libs/lineagesettings.jar",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-07T18:51:14Z",
+      "side": 0,
+      "message": "Can you put the output path for this in the commit message or gradle comment so that we know where it was copied from for easier future updates.",
+      "revId": "1db79d030cd8b8e3ecf7bb519061e2f03c98afea",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
