@@ -56,6 +56,41 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6bbe24eb_28a054ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-08T19:52:20Z",
+      "side": 1,
+      "message": "The notifications are handled in the follow-up change for notifications, so I think these can still go away in this change and become part of that one.",
+      "parentUuid": "c85513cd_d40a041a",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46c638b3_9d7b4d93",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-08T19:52:20Z",
+      "side": 1,
+      "message": "The value for this setting should come from the new Lineage setting. Instead, it looks like it\u0027s still being saved to and restored from the preferences file... by this line?",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "73b69816_b5711fba",
         "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
         "patchSetId": 6
