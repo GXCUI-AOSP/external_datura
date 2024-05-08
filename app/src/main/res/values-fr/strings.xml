@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Pare-feu Datura</string>
     <string name="app_short_name">Pare-feu</string>
     <string name="installed_apps">Applications installées</string>
@@ -12,4 +12,15 @@
     <string name="sort_by_name">Trier par nom</string>
     <string name="about">À propos</string>
     <string name="about_summary">Une application de pare-feu utilisant l\'API réseau interne d\'Android.</string>
+    <string name="default_settings">Paramètres par défaut</string>
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="searchbar_hint">Chercher des applications</string>
+    <string name="custom_settings">Paramètres personnalisés</string>
+    <string name="version">Version : <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="contributors_title">Contributeurs</string>
+    <string name="no_internet">L\'application ne demande pas l\'autorisation d\'utiliser Internet</string>
+    <string name="about_foss">Elle est distribuée sous la <a href="https://www.apache.org/licenses/LICENSE-2.0">license Apache 2.0</a>. Voir les fichiers pour les droits d\'auteur individuels</string>
+    <string name="contributing_orgs_title">Organisations participantes</string>
+    <string name="contributors_summary">Voir Gitlab pour la <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">liste de contributeurs</a>.</string>
+    <string name="work_profile_help">Les paramètres du pare-feu pour les applications professionnelles sont gérés dans l’application Pare-feu de votre profil personnel. Les applications professionnelles comportent une icône de porte-documents.</string>
 </resources>
