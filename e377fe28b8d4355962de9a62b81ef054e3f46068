@@ -108,6 +108,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "66f548ee_7306781e",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-08T19:56:31Z",
+      "side": 1,
+      "message": "Yes, it does.\n\nSecondary users can change the setting for the whole system. And due to [this issue](https://review.calyxos.org/c/CalyxOS/platform_external_calyx_datura/+/25844/comment/46c638b3_9d7b4d93/), the setting will look unchanged in the owner / other users.\n\nWe\u0027ll need to figure out how to address this. We *could* have the setting be per-user. Then we\u0027d need the framework change to be sure to check the setting for the uid\u0027s user.\n\nAn alternative, if we *want* it to be system-wide, would be to only expose the setting for an admin user / the owner and hide it from everyone else.",
+      "parentUuid": "73b69816_b5711fba",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c75d4100_d598da9f",
         "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
         "patchSetId": 6
