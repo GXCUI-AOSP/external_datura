@@ -194,6 +194,24 @@
       "parentUuid": "ad6b1e75_82a421b8",
       "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f8fa712_8585d4e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-08T19:44:06Z",
+      "side": 1,
+      "message": "It\u0027s reliable since switching to the framework-based method.",
+      "parentUuid": "160bd8ee_236f0e65",
+      "revId": "d0cee6ce7f8f3bd82b6553829902f8cbe79de26c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
