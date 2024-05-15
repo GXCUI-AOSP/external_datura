@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="allow_background_data">Permite accesul la rețea în fundal</string>
+    <string name="allow_wifi_data">Permite transferul de date prin Wi-Fi</string>
+    <string name="allow_vpn_data">Permite date VPN</string>
+    <string name="sort_by_last_used">Sortează după ultima utilizare</string>
+    <string name="sort_by_name">Sortează după nume</string>
+    <string name="allow_mobile_data">Permite date mobile</string>
+    <string name="about">Despre</string>
+    <string name="about_summary">O aplicație firewall care utilizează API-ul de rețea Android.</string>
+    <string name="default_settings">Setări implicite</string>
+    <string name="app_logo">Sigla aplicației</string>
+    <string name="custom_settings">Setări personalizate</string>
+    <string name="no_internet">Aplicația nu cere permisiunea de internet</string>
+    <string name="installed_apps">Aplicații instalate</string>
+    <string name="system_apps">Aplicații de sistem</string>
+    <string name="version">Versiune: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="contributors_title">Contribuitori</string>
+    <string name="contributors_summary">Consultă GitLab pentru o <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">listă de colaboratori</a>.</string>
+    <string name="contributing_orgs_title">Organizații ce contribuie</string>
+    <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a> pentru utilizare în <a href="https://calyxos.org">CalyxOS</a></string>
+    <string name="work_profile_help">Setările de firewall pentru aplicațiile de serviciu sunt gestionate în aplicația Firewall a profilului personal. Aplicațiile de serviciu au o pictogramă de servietă pe ele.</string>
+    <string name="app_name">Firewall Datura</string>
+    <string name="app_short_name">firewall</string>
+    <string name="searchbar_hint">Căutare aplicații</string>
+    <string name="about_foss">Este licențiat și distribuit sub <a href="https://www.apache.org/licenses/LICENSE-2.0">Licența Apache 2.0</a>. Consultă fișierele pentru informațiile individuale ale deținătorului drepturilor de autor.</string>
+</resources>
