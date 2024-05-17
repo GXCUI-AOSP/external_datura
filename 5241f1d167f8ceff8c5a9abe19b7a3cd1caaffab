@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06b5c587_a9abd19a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T17:44:51Z",
+      "side": 1,
+      "message": "Do we care about this being able to be toggled from secondary users?",
+      "revId": "5241f1d167f8ceff8c5a9abe19b7a3cd1caaffab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
