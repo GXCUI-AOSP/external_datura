@@ -52,6 +52,24 @@
       "parentUuid": "7446045c_bcecc9a6",
       "revId": "9bceee369904db9041b0c03c796aba0bf8ad2a36",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34e941c8_db8ca98d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:51:14Z",
+      "side": 1,
+      "message": "I think the boot receiver may not be registered for whatever reason (maybe needs other permissions)?",
+      "parentUuid": "068cd8b9_69a530f3",
+      "revId": "9bceee369904db9041b0c03c796aba0bf8ad2a36",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
