@@ -16,6 +16,24 @@
       "message": "Not showing up for me",
       "revId": "9bceee369904db9041b0c03c796aba0bf8ad2a36",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7446045c_bcecc9a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T17:45:44Z",
+      "side": 1,
+      "message": "Did you enable the notification permission?",
+      "parentUuid": "26bf1692_7b5d2888",
+      "revId": "9bceee369904db9041b0c03c796aba0bf8ad2a36",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
