@@ -72,6 +72,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3598b463_141acb50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:18:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bbe24eb_28a054ef",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "46c638b3_9d7b4d93",
@@ -85,6 +103,24 @@
       "writtenOn": "2024-05-08T19:52:20Z",
       "side": 1,
       "message": "The value for this setting should come from the new Lineage setting. Instead, it looks like it\u0027s still being saved to and restored from the preferences file... by this line?",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d9202aa_6d93ac7a",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:18:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46c638b3_9d7b4d93",
       "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -124,6 +160,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "df470dc6_ae2f34f4",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:18:29Z",
+      "side": 1,
+      "message": "Setting is now per-user",
+      "parentUuid": "66f548ee_7306781e",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c75d4100_d598da9f",
@@ -137,6 +191,24 @@
       "writtenOn": "2024-05-06T20:30:07Z",
       "side": 1,
       "message": "Can we call this something different than RESTRICTED_NETWORKING_MODE? Otherwise it will be pretty confusing, since that is a separate feature. (This will require changes elsewhere, too.)\n\nWhat about something more accurate and descriptive, or that matches somewhat with existing titles such as the preference name above? Maybe `FIREWALL_DEFAULT_INTERNET_ALLOWED` or that sort of thing?",
+      "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f99d425_1f0b3123",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 6
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:18:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c75d4100_d598da9f",
       "revId": "e377fe28b8d4355962de9a62b81ef054e3f46068",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }

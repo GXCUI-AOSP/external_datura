@@ -16,6 +16,24 @@
       "message": "Can you put the output path for this in the commit message or gradle comment so that we know where it was copied from for easier future updates.",
       "revId": "1db79d030cd8b8e3ecf7bb519061e2f03c98afea",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c21db59_f2bbfda5",
+        "filename": "app/libs/lineagesettings.jar",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:18:29Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "e03dc7ad_581a2421",
+      "revId": "1db79d030cd8b8e3ecf7bb519061e2f03c98afea",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
