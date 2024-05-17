@@ -183,6 +183,30 @@
       },
       "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c1ec752_1b96c651",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 11
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:18:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8c35952_2bfc86e0",
+      "range": {
+        "startLine": 204,
+        "startChar": 16,
+        "endLine": 208,
+        "endChar": 53
+      },
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
