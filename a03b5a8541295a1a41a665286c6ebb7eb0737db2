@@ -125,6 +125,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "14c11f0a_3240f643",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T17:42:06Z",
+      "side": 1,
+      "message": "I like the last option best. Would probably work with ACTION_UID_REMOVED with the existing receiver and require to keep track of the notification",
+      "parentUuid": "f896d032_69084378",
+      "revId": "a03b5a8541295a1a41a665286c6ebb7eb0737db2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c162cae4_1a296bf9",
         "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
         "patchSetId": 4
