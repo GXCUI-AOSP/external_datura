@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79d2fd98_9766837c",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-17T19:48:18Z",
+      "side": 1,
+      "message": "Maybe we should just read the setting directly since otherwise it seems like there can be a mismatch between it and the preference (e.g. if data is cleared)",
+      "range": {
+        "startLine": 50,
+        "startChar": 23,
+        "endLine": 50,
+        "endChar": 89
+      },
+      "revId": "2fc89c4b4798cbe674fb8d9b34a901446d1173f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
