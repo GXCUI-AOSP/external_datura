@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9aaa0ecb_d8f8fd7a",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/BootReceiver.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-21T14:21:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46e62915_fbcb3105",
+      "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "39177c31_8efd7088",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-05-20T17:10:22Z",
       "side": 1,
       "message": "ktlint fails with this blank line",
+      "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17ca3dc0_8f27d6bb",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-21T14:21:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39177c31_8efd7088",
       "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -52,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fed6254a_01393553",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-21T14:21:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75996c22_b8cf3386",
+      "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ae6cf106_f7160cb5",
@@ -69,6 +123,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b98e6445_4370c025",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-21T14:21:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae6cf106_f7160cb5",
+      "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d5b31d5_e25df61b",
@@ -82,6 +154,24 @@
       "writtenOn": "2024-05-20T17:10:22Z",
       "side": 1,
       "message": "Unresolved reference: DaturaService (it\u0027s in a different path, service, so probably need to import it?)",
+      "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8284d436_f42573e6",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-21T14:21:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d5b31d5_e25df61b",
       "revId": "6a866b5eeeea7536734ba49662b603ba6eedf186",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
