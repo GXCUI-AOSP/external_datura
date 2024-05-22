@@ -16,6 +16,24 @@
       "message": "Do we care about this being able to be toggled from secondary users?",
       "revId": "5241f1d167f8ceff8c5a9abe19b7a3cd1caaffab",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f928e904_5909f3e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-22T17:04:27Z",
+      "side": 1,
+      "message": "imo, if it affects the entire system, it shouldn\u0027t even be usable in secondary users (maybe just hide it?). If it can be easily made to affect a single user, I guess the question is, do we even want to do that? And if it wouldn\u0027t be easy, then I\u0027d say skip it and simply hide the option from secondary users, at least for now.",
+      "parentUuid": "06b5c587_a9abd19a",
+      "revId": "5241f1d167f8ceff8c5a9abe19b7a3cd1caaffab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
