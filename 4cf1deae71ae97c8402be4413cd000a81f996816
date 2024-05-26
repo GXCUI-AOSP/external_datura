@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "283f54bf_dec10465",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-05-26T14:38:21Z",
+      "side": 1,
+      "message": "Seems fine but maybe wait till QPR3",
+      "revId": "4cf1deae71ae97c8402be4413cd000a81f996816",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
