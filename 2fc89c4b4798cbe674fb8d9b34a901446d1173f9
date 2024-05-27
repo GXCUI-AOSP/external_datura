@@ -93,6 +93,30 @@
       },
       "revId": "2fc89c4b4798cbe674fb8d9b34a901446d1173f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f45d82b6_11e5727a",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 9
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-05-27T12:25:54Z",
+      "side": 1,
+      "message": "Seems to be fine to me. Do you have notification permission granted?",
+      "parentUuid": "f9f1adba_011dd461",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 81
+      },
+      "revId": "2fc89c4b4798cbe674fb8d9b34a901446d1173f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
