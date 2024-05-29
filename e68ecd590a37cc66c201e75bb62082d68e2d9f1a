@@ -39,6 +39,30 @@
       },
       "revId": "e68ecd590a37cc66c201e75bb62082d68e2d9f1a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b22b71f9_db511c3d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-05-29T12:53:55Z",
+      "side": 1,
+      "message": "nvm, I see the comment on jar files now.",
+      "parentUuid": "ca01a4e8_f8ed411c",
+      "range": {
+        "startLine": 7,
+        "startChar": 16,
+        "endLine": 7,
+        "endChar": 22
+      },
+      "revId": "e68ecd590a37cc66c201e75bb62082d68e2d9f1a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
