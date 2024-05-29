@@ -16,6 +16,24 @@
       "message": "Sadly the notification still does not show up for me sometimes (and no log either?), and the setting needs to be toggled off and on again to make it work, or the device rebooted. How can we make it more reliable? I\u0027ll see if I can get any useful information from logs.",
       "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "377d7bb7_5a2945a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-29T13:28:36Z",
+      "side": 1,
+      "message": "Worked once, then ActivityManager froze it, and it didn\u0027t work again:\n```\n05-29 09:25:05.981 10163  4257  4257 I DaturaService: Auto-denying internet access for 10206\n05-29 09:25:23.525  1000  1697  2223 D ActivityManager: freezing 4257 org.calyxos.datura\n```",
+      "parentUuid": "409647fd_fc4a13c4",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
