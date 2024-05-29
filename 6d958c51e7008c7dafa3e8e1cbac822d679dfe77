@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2e02bc80_028bec74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-29T17:41:23Z",
+      "side": 1,
+      "message": "Doze allowlist sounds good to me. Added here, along with notification permission: https://review.calyxos.org/c/CalyxOS/platform_prebuilts_calyx_datura/+/26503",
+      "parentUuid": "10011a4b_229310a2",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c3e600e2_5e75cc80",
         "filename": "app/src/main/java/org/calyxos/datura/receiver/BootReceiver.kt",
         "patchSetId": 15
