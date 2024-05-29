@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "409647fd_fc4a13c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-29T13:24:15Z",
+      "side": 1,
+      "message": "Sadly the notification still does not show up for me sometimes (and no log either?), and the setting needs to be toggled off and on again to make it work, or the device rebooted. How can we make it more reliable? I\u0027ll see if I can get any useful information from logs.",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
