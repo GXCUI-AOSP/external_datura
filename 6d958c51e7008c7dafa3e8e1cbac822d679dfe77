@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a0868455_7f5e455f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-29T17:43:47Z",
+      "side": 1,
+      "message": "It still randomly stopped working. Nothing in logs this time, but it would not respond to an app being installed. I had been uninstalling and reinstalling the Wikipedia app multiple times in F-Droid as a test. After leaving the device alone for about a half-hour, I tried again, and nothing.\n\nThen, I opened Datura, and by opening it, it suddenly received a delayed broadcast and crashed immediately (might have been too stale?):\n```\n05-29 13:40:05.457 10163 10313 10313 D AndroidRuntime: Shutting down VM\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime: FATAL EXCEPTION: main\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime: Process: org.calyxos.datura, PID: 10313\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime: java.lang.RuntimeException: Error receiving broadcast Intent { act\u003dandroid.intent.action.PACKAGE_ADDED dat\u003dpackage: flg\u003d0x4000010 (has extras) } in org.calyxos.datura.service.DaturaService$packageReceiver$1@add639c\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1818)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.app.LoadedApk$ReceiverDispatcher$Args.$r8$lambda$mcNAAl1SQ4MyJPyDg8TJ2x2h0Rk(Unknown Source:0)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.os.Handler.handleCallback(Handler.java:959)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.os.Handler.dispatchMessage(Handler.java:100)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.os.Looper.loopOnce(Looper.java:232)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.os.Looper.loop(Looper.java:317)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.app.ActivityThread.main(ActivityThread.java:8501)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at java.lang.reflect.Method.invoke(Native Method)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:878)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime: Caused by: android.content.pm.PackageManager$NameNotFoundException: org.wikipedia\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:265)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at org.calyxos.datura.service.DaturaService.getMinimalApp(DaturaService.kt:109)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at org.calyxos.datura.service.DaturaService.access$getMinimalApp(DaturaService.kt:26)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at org.calyxos.datura.service.DaturaService$packageReceiver$1.onReceive(DaturaService.kt:44)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1810)\n05-29 13:40:05.457 10163 10313 10313 E AndroidRuntime:  ... 10 more\n```",
+      "parentUuid": "2e02bc80_028bec74",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c3e600e2_5e75cc80",
         "filename": "app/src/main/java/org/calyxos/datura/receiver/BootReceiver.kt",
         "patchSetId": 15
