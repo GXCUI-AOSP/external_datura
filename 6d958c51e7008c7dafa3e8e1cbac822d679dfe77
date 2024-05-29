@@ -34,6 +34,24 @@
       "parentUuid": "409647fd_fc4a13c4",
       "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10011a4b_229310a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-05-29T13:47:57Z",
+      "side": 1,
+      "message": "How about adding it to doze allowlist? or we can switch to an FGS with special exemption but that would result in an ongoing notification and datura being stoppable in the task manager.",
+      "parentUuid": "377d7bb7_5a2945a3",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
