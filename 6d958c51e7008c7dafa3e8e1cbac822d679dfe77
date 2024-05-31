@@ -90,6 +90,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3de31de4_4408018c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-31T18:57:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a0868455_7f5e455f",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c3e600e2_5e75cc80",
@@ -103,6 +121,24 @@
       "writtenOn": "2024-05-29T13:49:24Z",
       "side": 1,
       "message": "We should check the button state here like we do in SettingsFragment before starting the service.",
+      "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89fdbce8_9a19eab1",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/BootReceiver.kt",
+        "patchSetId": 15
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-31T18:57:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3e600e2_5e75cc80",
       "revId": "6d958c51e7008c7dafa3e8e1cbac822d679dfe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
