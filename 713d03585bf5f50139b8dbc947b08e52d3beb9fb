@@ -22,6 +22,30 @@
       },
       "revId": "713d03585bf5f50139b8dbc947b08e52d3beb9fb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd250c3a_d990f7c8",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 16
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-06-01T14:20:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71885368_53dbf551",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 20
+      },
+      "revId": "713d03585bf5f50139b8dbc947b08e52d3beb9fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
