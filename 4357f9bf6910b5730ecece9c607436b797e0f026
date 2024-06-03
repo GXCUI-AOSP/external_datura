@@ -164,6 +164,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "99da8d7f_ea17d2ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-03T18:27:04Z",
+      "side": 1,
+      "message": "I want to make sure I understand something:\n1. My Great App\u0027s manifest is set to restrict cleartext. When global cleartext restriction is OFF, there is no way to override that.\n2. When user has global cleartext restriction ON, this is a default-restricted state, and it is the only time the per-app override is visible.\n3. User sets the cleartext override for My Great App...\n4. My Great App no longer has cleartext restriction. - Is this true?\n5. My Great App is now less restricted than is even possible with the less-restrictive global cleartext OFF state. - Is this true?",
+      "parentUuid": "7583177c_990e463b",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c8c35952_2bfc86e0",
         "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
         "patchSetId": 11
