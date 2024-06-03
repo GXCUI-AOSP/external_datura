@@ -198,6 +198,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d66296e_7957c0fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-03T19:23:25Z",
+      "side": 1,
+      "message": "This case has been dealt with in PS30. The per-app toggle will not be enabled if the policy is set to restrict for the UID by reading the value from the new custom getter API (indicating it was already set by config/manifest/other).",
+      "parentUuid": "db6422d5_eaed3514",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c8c35952_2bfc86e0",
