@@ -182,6 +182,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "db6422d5_eaed3514",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-03T18:31:24Z",
+      "side": 1,
+      "message": "5. If it\u0027s true, it shouldn\u0027t be. The psuecode I pasted above and in the tickets should mean that\u0027s not possible, so that should be done.\n\nI don\u0027t see any `targetSdk` references in this change though.",
+      "parentUuid": "99da8d7f_ea17d2ec",
+      "revId": "4357f9bf6910b5730ecece9c607436b797e0f026",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c8c35952_2bfc86e0",
         "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
         "patchSetId": 11
