@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab847ca6_17e3856c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 24
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-03T22:16:57Z",
+      "side": 1,
+      "message": "The default network access feature affects work profiles of the user, too, but there\u0027s no notification when an app is installed in a work profile; it just has no network access. Since Datura has the permission for it, there should be a way to monitor packages added for the child profiles, too.\n\nAt this point, personally I think it would be okay to figure this out in a follow-up change.",
+      "revId": "4249508fedf7ab50f468d74278cce0673a3465f2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
