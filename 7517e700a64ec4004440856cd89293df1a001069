@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5b516fa1_16976220",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-05T13:14:59Z",
+      "side": 1,
+      "message": "Would this be to have the notification show up in the work profile?\n\nI think it\u0027s better to keep it in the parent user, which is managing all of this anyway, unless there\u0027s something I\u0027m not thinking about...?",
+      "parentUuid": "b920ec76_c720d482",
+      "range": {
+        "startLine": 74,
+        "startChar": 32,
+        "endLine": 74,
+        "endChar": 38
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90eebcac_d6c304c9",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
@@ -37,6 +61,30 @@
       "writtenOn": "2024-06-04T15:57:40Z",
       "side": 1,
       "message": "Since Datura is not installed on work profiles and we\u0027re adding code to handle them within their parent, this assumption won\u0027t work anymore unfortunately",
+      "range": {
+        "startLine": 75,
+        "startChar": 66,
+        "endLine": 75,
+        "endChar": 81
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa425420_2fbb3626",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-05T13:14:59Z",
+      "side": 1,
+      "message": "Perhaps we could just add `app.uid` instead?",
+      "parentUuid": "90eebcac_d6c304c9",
       "range": {
         "startLine": 75,
         "startChar": 66,
@@ -72,6 +120,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "213d75fd_ca1ab0d1",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-05T13:14:59Z",
+      "side": 1,
+      "message": "This could be passed a `uid` as well to be used in place of `Process.myUid()`.",
+      "parentUuid": "9ff207a1_597f2749",
+      "range": {
+        "startLine": 82,
+        "startChar": 62,
+        "endLine": 82,
+        "endChar": 77
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "36ae64ca_037d3838",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
@@ -95,6 +167,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f9924105_f6fc1132",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-05T13:14:59Z",
+      "side": 1,
+      "message": "How come?",
+      "parentUuid": "36ae64ca_037d3838",
+      "range": {
+        "startLine": 127,
+        "startChar": 41,
+        "endLine": 127,
+        "endChar": 61
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8d5294fb_c55a569a",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
@@ -106,6 +202,30 @@
       "writtenOn": "2024-06-04T15:57:40Z",
       "side": 1,
       "message": "Ditto",
+      "range": {
+        "startLine": 130,
+        "startChar": 33,
+        "endLine": 130,
+        "endChar": 47
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99a95104_c337fda9",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-05T13:14:59Z",
+      "side": 1,
+      "message": "Can pass from the intent extra in onReceive (like mentioned in another comment) and use that uid; `getMinimalApp` could take `uid` as an argument.",
+      "parentUuid": "8d5294fb_c55a569a",
       "range": {
         "startLine": 130,
         "startChar": 33,
