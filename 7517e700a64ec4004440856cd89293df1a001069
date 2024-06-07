@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "49d380e6_2bc05a21",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-07T17:40:25Z",
+      "side": 1,
+      "message": "Yeah, this would be to show it as part of the work profile which is where it was installed. If the user is stopped and the notification is in the system user and the actions on the notification are supposed to handle things that only apply when the user is active it is problematic. In this case if it\u0027s playing with UID policies for networking it may not be much of an issue. Still think it would make sense to show where it was installed in a way that makes sense to the user though (work profile normally would show work badge icon)",
+      "parentUuid": "5b516fa1_16976220",
+      "range": {
+        "startLine": 74,
+        "startChar": 32,
+        "endLine": 74,
+        "endChar": 38
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90eebcac_d6c304c9",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "Perhaps we could just add `app.uid` instead?",
       "parentUuid": "90eebcac_d6c304c9",
+      "range": {
+        "startLine": 75,
+        "startChar": 66,
+        "endLine": 75,
+        "endChar": 81
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e6da5b0_f28ec0c1",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-07T17:40:25Z",
+      "side": 1,
+      "message": "As long as it is based on EXTRA_UID should be fine",
+      "parentUuid": "fa425420_2fbb3626",
       "range": {
         "startLine": 75,
         "startChar": 66,
@@ -179,6 +227,30 @@
       "side": 1,
       "message": "How come?",
       "parentUuid": "36ae64ca_037d3838",
+      "range": {
+        "startLine": 127,
+        "startChar": 41,
+        "endLine": 127,
+        "endChar": 61
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4079f415_89d28f53",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-07T17:40:25Z",
+      "side": 1,
+      "message": "We don\u0027t want to get the package info based on the package name and an assumed UID. Sending in the one from EXTRA_UID into the suggested function would give the package(s) that are tied to the UID.",
+      "parentUuid": "f9924105_f6fc1132",
       "range": {
         "startLine": 127,
         "startChar": 41,
