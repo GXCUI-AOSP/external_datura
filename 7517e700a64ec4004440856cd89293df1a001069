@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a2c7fe96_cc572dcc",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-06-10T12:53:05Z",
+      "side": 1,
+      "message": "The notification icon will contain the work badge icon as it is using existing logic for icons. Regarding applying policies when user is stopped, I don\u0027t think that is a breaking issue, is it?",
+      "parentUuid": "49d380e6_2bc05a21",
+      "range": {
+        "startLine": 74,
+        "startChar": 32,
+        "endLine": 74,
+        "endChar": 38
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90eebcac_d6c304c9",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
