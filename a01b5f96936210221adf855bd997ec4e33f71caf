@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50a87fe1_f71ff969",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 28
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-11T17:54:56Z",
+      "side": 1,
+      "message": "Crashing when I toggle off network access for new apps. I guess we need `INTERACT_ACROSS_USERS_FULL` for this?\n\n`java.lang.SecurityException: Permission Denial: registerReceiver from org.calyxos.datura asks to run as user -1 but is calling from uid u0a162; this requires android.permission.INTERACT_ACROSS_USERS_FULL`",
+      "revId": "a01b5f96936210221adf855bd997ec4e33f71caf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
