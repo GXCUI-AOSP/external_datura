@@ -335,6 +335,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2255f7bb_90a117a0",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-11T14:42:10Z",
+      "side": 1,
+      "message": "`getPackagesForUid` will give us package names, not PackageInfo. We already have a package name. At this point, shouldn\u0027t it be enough to fix the Process.myUid to use the uid that is now being supplied to this function?",
+      "parentUuid": "4079f415_89d28f53",
+      "range": {
+        "startLine": 127,
+        "startChar": 41,
+        "endLine": 127,
+        "endChar": 61
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8d5294fb_c55a569a",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
