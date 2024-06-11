@@ -98,6 +98,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6b70f195_79d9fd72",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-11T18:33:56Z",
+      "side": 1,
+      "message": "Policies should apply regardless of the state of the user. Either way it\u0027d be a frameworks fix if it weren\u0027t. Was just mentioning so that we check/test it. Otherwise, concerning notification sounds like it\u0027s handled.",
+      "parentUuid": "a2c7fe96_cc572dcc",
+      "range": {
+        "startLine": 74,
+        "startChar": 32,
+        "endLine": 74,
+        "endChar": 38
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90eebcac_d6c304c9",
         "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
         "patchSetId": 25
@@ -371,6 +395,30 @@
       "side": 1,
       "message": "Changed to use the supplied uid, let me know if there\u0027s still more to change",
       "parentUuid": "2255f7bb_90a117a0",
+      "range": {
+        "startLine": 127,
+        "startChar": 41,
+        "endLine": 127,
+        "endChar": 61
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e71e5dc_5641db4d",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-11T18:33:56Z",
+      "side": 1,
+      "message": "Should be fine. Forgot we get the package name and not just the UID from the intent. I\u0027ve been used to relying on UID\u0027s pretty much exclusively because of policies",
+      "parentUuid": "c3c76dd5_f738382f",
       "range": {
         "startLine": 127,
         "startChar": 41,
