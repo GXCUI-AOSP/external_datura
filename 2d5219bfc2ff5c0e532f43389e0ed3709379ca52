@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcf304a5_b1cbc2a9",
+        "filename": "app/src/main/java/org/calyxos/datura/receiver/DaturaReceiver.kt",
+        "patchSetId": 27
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-11T14:50:20Z",
+      "side": 1,
+      "message": "```suggestion\n                    .cancel(packageName!!.hashCode() + uid)\n```",
+      "revId": "2d5219bfc2ff5c0e532f43389e0ed3709379ca52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
