@@ -428,6 +428,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8398a1c_53a51e8b",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 25
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-11T14:51:58Z",
+      "side": 1,
+      "message": "Done by Aayush earlier.",
+      "parentUuid": "99a95104_c337fda9",
+      "range": {
+        "startLine": 130,
+        "startChar": 33,
+        "endLine": 130,
+        "endChar": 47
+      },
+      "revId": "7517e700a64ec4004440856cd89293df1a001069",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72ea781e_02818c35",
