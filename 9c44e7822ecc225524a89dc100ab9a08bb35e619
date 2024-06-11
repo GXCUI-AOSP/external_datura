@@ -16,6 +16,24 @@
       "message": "Suppress lint failure (I\u0027ll upload the fix shortly)",
       "revId": "9c44e7822ecc225524a89dc100ab9a08bb35e619",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a211e25b_68538db1",
+        "filename": "app/src/main/java/org/calyxos/datura/service/DaturaService.kt",
+        "patchSetId": 26
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-11T14:44:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7195bcb4_03fb8786",
+      "revId": "9c44e7822ecc225524a89dc100ab9a08bb35e619",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
