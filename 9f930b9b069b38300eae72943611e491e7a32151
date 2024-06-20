@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86c64a1d_e4150615",
+        "filename": "app/src/main/java/org/calyxos/datura/applist/AppListRVAdapter.kt",
+        "patchSetId": 34
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-20T15:54:44Z",
+      "side": 1,
+      "message": "Could you add some comments here",
+      "revId": "9f930b9b069b38300eae72943611e491e7a32151",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
