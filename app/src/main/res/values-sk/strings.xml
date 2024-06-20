@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_foss">Je licencovaná a distribuovaná pod licenciou <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. Informácie o jednotlivých držiteľoch autorských práv nájdete v súboroch.</string>
+    <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a> pre použitie v <a href="https://calyxos.org">CalyxOS</a></string>
+    <string name="app_name">Firewall Datura</string>
+    <string name="app_short_name">Firewall</string>
+    <string name="allow_background_data">Povoliť prístup k sieti na pozadí</string>
+    <string name="allow_wifi_data">Povoliť prístup k Wi-Fi</string>
+    <string name="allow_mobile_data">Povoliť prístup k mobilným dátam</string>
+    <string name="allow_vpn_data">Povoliť prístup k VPN</string>
+    <string name="sort_by_last_used">Zoradiť podľa posledného použitia</string>
+    <string name="app_logo">Logo aplikácie</string>
+    <string name="searchbar_hint">Hľadať aplikácie</string>
+    <string name="default_settings">Predvolené nastavenia</string>
+    <string name="custom_settings">Vlastné nastavenia</string>
+    <string name="no_internet">Aplikácia nežiada o povolenie na internet</string>
+    <string name="sort_by_name">Zoradiť podľa mena</string>
+    <string name="installed_apps">Nainštalované aplikácie</string>
+    <string name="system_apps">Systémové aplikácie</string>
+    <string name="about">Informácie</string>
+    <string name="about_summary">Aplikácia sprostredkujúca firewall pomocou interného Android API umožňujúceho kontrolu prístupu k sieťam.</string>
+    <string name="version">Verzia: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="contributors_title">Prispievatelia</string>
+    <string name="contributors_summary">Zoznam prispievateľov nájdete na <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">na GitLabu</a>.</string>
+    <string name="contributing_orgs_title">Prispievajúce organizácie</string>
+    <string name="work_profile_help">Nastavenie firewallu pre pracovné aplikácie nájdete v aplikácii Firewall vo vašom osobnom profile. Pracovné aplikácie majú pri sebe ikonu kufríka.</string>
+</resources>
