@@ -34,6 +34,24 @@
       "parentUuid": "e2d3bff2_eaad87db",
       "revId": "e36db94cfecdc51b4a13e701eec9edad6f11fd4b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8b54b8a_811ef559",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-21T16:00:39Z",
+      "side": 1,
+      "message": "And httpforever.com is blocked, so it is functioning",
+      "parentUuid": "375a15a7_be3569fa",
+      "revId": "e36db94cfecdc51b4a13e701eec9edad6f11fd4b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
