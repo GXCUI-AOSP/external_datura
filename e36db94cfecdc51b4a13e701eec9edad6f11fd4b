@@ -70,6 +70,24 @@
       "parentUuid": "f8b54b8a_811ef559",
       "revId": "e36db94cfecdc51b4a13e701eec9edad6f11fd4b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d573ea3_e9cad785",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-21T19:00:24Z",
+      "side": 1,
+      "message": "AOSP behaviour may have changed somewhat since our original implementation. It seems as if all DNS traffic is going through uid 0 now (iirc apps used to do them through their own UIDs, so the allow rule mostly applied for the system and particularly connectivity check).\nOur implementation does have a rule to allow UID 0 DNS traffic as long as no private DNS is set. So that would explain why under any circumstance DNS was still functional even with cleartext globally restricted. So we should still make this setting dependent on private DNS given otherwise DNS is fully allowed while other cleartext traffic is blocked as expected",
+      "parentUuid": "7977f538_2b1c682e",
+      "revId": "e36db94cfecdc51b4a13e701eec9edad6f11fd4b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
