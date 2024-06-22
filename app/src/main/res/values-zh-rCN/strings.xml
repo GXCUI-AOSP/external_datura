@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_summary">一款使用 Android 内部网络 API 的防火墙应用。</string>
     <string name="about">关于</string>
-    <string name="app_name">曼陀罗防火墙</string>
+    <string name="app_name">Datura 防火墙</string>
     <string name="app_short_name">防火墙</string>
     <string name="installed_apps">已安装应用</string>
     <string name="system_apps">系统应用</string>
@@ -12,4 +12,16 @@
     <string name="allow_vpn_data">允许 VPN 数据</string>
     <string name="sort_by_last_used">按上次使用排序</string>
     <string name="sort_by_name">按名称排序</string>
+    <string name="no_internet">应用没有申请网络权限</string>
+    <string name="contributors_title">贡献者</string>
+    <string name="work_profile_help">工作应用程序的防火墙设置在您的个人资料的防火墙应用程序中进行管理。工作应用程序上有一个公文包图标。</string>
+    <string name="default_settings">默认设置</string>
+    <string name="app_logo">应用图标</string>
+    <string name="searchbar_hint">搜索应用</string>
+    <string name="custom_settings">自定义设置</string>
+    <string name="about_foss">此应用程序根据 <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a> 授权和分发。请参阅文件以了解版权持有者的信息。</string>
+    <string name="version">版本：<xliff:g id="version">%1$s</xliff:g></string>
+    <string name="contributors_summary">请前往 GitLab 查看 <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">贡献者列表</a> 。</string>
+    <string name="contributing_orgs_title">贡献机构</string>
+    <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a> 用于 <a href="https://calyxos.org">CalyxOS</a></string>
 </resources>
