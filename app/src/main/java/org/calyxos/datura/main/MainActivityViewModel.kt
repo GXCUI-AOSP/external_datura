@@ -38,6 +38,10 @@ class MainActivityViewModel @Inject constructor(
         _appList.value = CommonUtils.getAllPackagesWithHeader(context)
     }
 
+    fun updateAppList(list: List<DaturaItem>) {
+        _appList.value = list
+    }
+
     fun getFilteredAppList(text: String): List<DaturaItem> {
         return if (text.isNotBlank()) {
             _appList.value.filter { it.type == Type.APP && (it as App).name.contains(text, true) }

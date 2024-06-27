@@ -15,10 +15,12 @@ import android.content.pm.PackageManager
 import android.content.pm.PackageManager.PackageInfoFlags
 import android.graphics.Bitmap
 import android.os.Process
+import android.os.StrictMode
 import android.os.UserHandle
 import android.os.UserManager
 import android.util.Log
 import androidx.core.graphics.drawable.toBitmap
+import lineageos.providers.LineageSettings
 import org.calyxos.datura.R
 import org.calyxos.datura.models.App
 import org.calyxos.datura.models.DaturaItem
@@ -71,7 +73,12 @@ object CommonUtils {
                 requestsInternetPermission,
                 false,
                 usageStatsList.firstOrNull { u -> u.packageName == it.packageName }?.lastTimeUsed
-                    ?: 0L
+                    ?: 0L,
+                LineageSettings.Global.getInt(
+                    context.contentResolver,
+                    LineageSettings.Global.CLEARTEXT_NETWORK_POLICY,
+                    StrictMode.NETWORK_POLICY_INVALID
+                )
             )
             applicationList.add(app)
         }

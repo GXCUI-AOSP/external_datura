@@ -24,7 +24,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.materialswitch.MaterialSwitch
-import lineageos.providers.LineageSettings
+import dagger.assisted.Assisted
+import dagger.assisted.AssistedFactory
+import dagger.assisted.AssistedInject
 import org.calyxos.datura.R
 import org.calyxos.datura.databinding.RecyclerViewAppListBinding
 import org.calyxos.datura.databinding.RecyclerViewHeaderListBinding
@@ -35,11 +37,21 @@ import org.calyxos.datura.models.Type
 import javax.inject.Inject
 import javax.inject.Singleton
 
-class AppListRVAdapter @Inject constructor(
+class AppListRVAdapter @AssistedInject constructor(
     daturaItemDiffUtil: DaturaItemDiffUtil,
+    @Assisted private val appListInterface: AppListInterface,
     private val networkPolicyManager: NetworkPolicyManager,
     private val networkManagementService: INetworkManagementService
 ) : ListAdapter<DaturaItem, RecyclerView.ViewHolder>(daturaItemDiffUtil) {
+
+    @AssistedFactory
+    interface AppListRVAdapterFactory {
+        fun create(appListInterface: AppListInterface): AppListRVAdapter
+    }
+
+    interface AppListInterface {
+        fun onListChanged(list: List<DaturaItem>)
+    }
 
     inner class AppViewHolder(val binding: RecyclerViewAppListBinding) :
         RecyclerView.ViewHolder(binding.root)
@@ -200,14 +212,8 @@ class AppListRVAdapter @Inject constructor(
                 }
             }
 
-            val cleartextNetworkPolicy = LineageSettings.Global.getInt(
-                holder.itemView.context.contentResolver,
-                LineageSettings.Global.CLEARTEXT_NETWORK_POLICY,
-                StrictMode.NETWORK_POLICY_INVALID
-            )
-
             val cleartextNetworkAllowed = app.requestsInternetPermission && mainSwitchEnabled &&
-                cleartextNetworkPolicy == StrictMode.NETWORK_POLICY_REJECT
+                app.cleartextNetworkPolicy == StrictMode.NETWORK_POLICY_REJECT
 
             expandLayout.cleartextLayout.visibility = if (cleartextNetworkAllowed) {
                 View.VISIBLE
@@ -229,14 +235,14 @@ class AppListRVAdapter @Inject constructor(
 
                 setOnCheckedChangeListener { view, isChecked ->
                     if (view.isVisible) {
-                        networkManagementService.setUidCleartextNetworkPolicy(
-                            app.uid,
-                            if (isChecked) {
-                                StrictMode.NETWORK_POLICY_ACCEPT
-                            } else {
-                                StrictMode.NETWORK_POLICY_INVALID
-                            }
-                        )
+                        val policy = if (isChecked) {
+                            StrictMode.NETWORK_POLICY_ACCEPT
+                        } else {
+                            StrictMode.NETWORK_POLICY_INVALID
+                        }
+                        networkManagementService.setUidCleartextNetworkPolicy(app.uid, policy)
+                        (currentList[holder.adapterPosition] as App).cleartextNetworkPolicy = policy
+                        appListInterface.onListChanged(currentList)
                     }
 
                     // Reflect appropriate settings status
