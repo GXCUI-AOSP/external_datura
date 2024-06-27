@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c09ce212_2759e0b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 41
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-06-27T13:31:09Z",
+      "side": 1,
+      "message": "Fixed ktlint errors",
+      "revId": "5291f42f402066c2f4c9f31ef831934056b8df25",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
