@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09ec19f4_a6b33a05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-28T21:44:01Z",
+      "side": 1,
+      "message": "After enabling global cleartext, the per-app toggle didn\u0027t show until reopening that page a second time. Unsure why",
+      "revId": "20bfc6b314f564a0954095471bc54d1429dcfe52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
