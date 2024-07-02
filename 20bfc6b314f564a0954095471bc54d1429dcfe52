@@ -35,6 +35,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2dbc317_2ce4ae1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-07-02T07:53:19Z",
+      "side": 1,
+      "message": "Logic is wrong",
+      "revId": "20bfc6b314f564a0954095471bc54d1429dcfe52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e0b490ca_5c2a5053",
@@ -53,6 +70,29 @@
         "startChar": 0,
         "endLine": 164,
         "endChar": 5
+      },
+      "revId": "20bfc6b314f564a0954095471bc54d1429dcfe52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d46de3c8_933b7ebd",
+        "filename": "app/src/main/java/org/calyxos/datura/utils/CommonUtils.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-07-02T07:53:19Z",
+      "side": 1,
+      "message": "We should get per-app UID policy here instead of global",
+      "range": {
+        "startLine": 77,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 17
       },
       "revId": "20bfc6b314f564a0954095471bc54d1429dcfe52",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
