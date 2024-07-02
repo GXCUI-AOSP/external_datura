@@ -33,6 +33,29 @@
       "message": "Seems to be working as expected",
       "revId": "20bfc6b314f564a0954095471bc54d1429dcfe52",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0b490ca_5c2a5053",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-07-02T07:47:50Z",
+      "side": 1,
+      "message": "Probably should move to MainActivityViewModel and split logic into two functions (otherwise filter\u0027s syntax looks quite bad)",
+      "range": {
+        "startLine": 150,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 5
+      },
+      "revId": "20bfc6b314f564a0954095471bc54d1429dcfe52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
