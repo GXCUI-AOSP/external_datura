@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55bd2f6e_a9043b02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 30
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-04T12:19:27Z",
+      "side": 1,
+      "message": "Rebased since this isn\u0027t directly related to the chain and good to go.",
+      "revId": "3f2db71ecabd9bfb0f7abbcb767df6c9924eb08b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
