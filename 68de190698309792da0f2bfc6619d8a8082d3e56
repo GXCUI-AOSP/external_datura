@@ -16,6 +16,29 @@
       "message": "Hold entire chain given https://gitlab.com/CalyxOS/calyxos/-/issues/2533\n\nWorst case: We drop this\nMid: Clearer messaging\nBest: We make the feature better.\n\nTBD, but hold till then.",
       "revId": "68de190698309792da0f2bfc6619d8a8082d3e56",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18de37a5_715410bf",
+        "filename": "app/src/main/java/org/calyxos/datura/settings/SettingsFragment.kt",
+        "patchSetId": 35
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-04T12:18:35Z",
+      "side": 1,
+      "message": "```suggestion\n            it.isVisible \u003d requireContext().getSystemService(UserManager::class.java)!!.isSystemUser\n```",
+      "range": {
+        "startLine": 88,
+        "startChar": 12,
+        "endLine": 88,
+        "endChar": 98
+      },
+      "revId": "68de190698309792da0f2bfc6619d8a8082d3e56",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
