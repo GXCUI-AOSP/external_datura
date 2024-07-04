@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7de18f8e_7d46d270",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 35
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-04T12:14:04Z",
+      "side": 1,
+      "message": "Hold entire chain given https://gitlab.com/CalyxOS/calyxos/-/issues/2533\n\nWorst case: We drop this\nMid: Clearer messaging\nBest: We make the feature better.\n\nTBD, but hold till then.",
+      "revId": "68de190698309792da0f2bfc6619d8a8082d3e56",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
