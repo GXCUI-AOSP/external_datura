@@ -18,6 +18,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18affc94_951bd490",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 35
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-04T12:19:14Z",
+      "side": 1,
+      "message": "Will also need android.jar including 25957: Implement uid cleartext network policy getter | https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/25957",
+      "revId": "68de190698309792da0f2bfc6619d8a8082d3e56",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "18de37a5_715410bf",
