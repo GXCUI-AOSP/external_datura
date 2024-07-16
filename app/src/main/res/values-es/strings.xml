@@ -24,4 +24,16 @@
     <string name="contributors_title">Colaboradores</string>
     <string name="contributing_orgs_title">Organizaciones colaboradoras</string>
     <string name="work_profile_help">La configuración del cortafuegos para las aplicaciones de trabajo se gestiona en la aplicación Cortafuegos de tu perfil personal. Las aplicaciones de trabajo tienen un icono en forma de maletín.</string>
+    <string name="pref_default_internet_title">Permitir el acceso a Internet para nuevas instalaciones</string>
+    <string name="notification_channel_fgs">Servicio en primer plano</string>
+    <string name="notification_channel_alert">Alertas</string>
+    <string name="monitoring_new_app_installs_title">Supervisión de aplicaciones nuevas instaladas</string>
+    <string name="internet_access_denied_title">¡Acceso a Internet denegado!</string>
+    <string name="internet_access_denied_desc"><xliff:g id="app_name">%1$s</xliff:g> no tiene acceso a Internet. ¿Quieres permitirlo?</string>
+    <string name="allow">Permitir</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="settings">Ajustes</string>
+    <string name="pref_default_internet_summary">Las nuevas aplicaciones instaladas pueden acceder a Internet por defecto</string>
+    <string name="monitoring_new_app_installs_desc">¡El cortafuegos supervisa ahora las nuevas aplicaciones instaladas para denegar el acceso a Internet por defecto!</string>
+    <string name="notifications_desc">Notificaciones sobre el acceso a Internet para la instalación de nuevas aplicaciones</string>
 </resources>

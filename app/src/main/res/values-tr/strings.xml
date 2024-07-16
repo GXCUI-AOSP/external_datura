@@ -24,4 +24,16 @@
     <string name="contributors_summary"><a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">Katkıda bulunanların listesi</a> için lütfen GitLab sayfasına bakın.</string>
     <string name="contributing_orgs_summary"><a href="https://calyxos.org">CalyxOS</a>\'de kullanım için <a href="https://www.calyxinstitute.org">Calyx Enstitüsü</a></string>
     <string name="version">Sürüm: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="settings">Ayarlar</string>
+    <string name="notification_channel_fgs">Ön plan hizmeti</string>
+    <string name="pref_default_internet_title">Yeni kurulumlar için internete izin ver</string>
+    <string name="monitoring_new_app_installs_title">Yeni uygulama kurulumlarının izlenmesi</string>
+    <string name="allow">İzin ver</string>
+    <string name="notifications_desc">Yeni uygulama kurulumları için internet erişimiyle ilgili bildirimler</string>
+    <string name="pref_default_internet_summary">Yeni uygulama kurulumlarının öntanımlı olarak internete erişmesine izin verilir</string>
+    <string name="notification_channel_alert">Uyarılar</string>
+    <string name="monitoring_new_app_installs_desc">Güvenlik duvarı artık öntanımlı olarak internet erişimini reddetmek için yeni uygulama kurulumlarını izliyor!</string>
+    <string name="internet_access_denied_desc"><xliff:g id="app_name">%1$s</xliff:g> uygulamasının internet erişimi yok. İzin vermek istiyor musunuz?</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="internet_access_denied_title">İnternet erişimi reddedildi!</string>
 </resources>
