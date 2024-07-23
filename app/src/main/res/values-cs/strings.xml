@@ -24,4 +24,16 @@
     <string name="contributors_summary">Seznam přispěvatelů naleznete <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">na GitLabu</a>.</string>
     <string name="contributing_orgs_title">Přispívající organizace</string>
     <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a> pro použití v <a href="https://calyxos.org">CalyxOS</a></string>
+    <string name="pref_default_internet_title">Povolit internet u nových instalací</string>
+    <string name="notification_channel_alert">Upozornění</string>
+    <string name="monitoring_new_app_installs_title">Monitorování instalací nových aplikací</string>
+    <string name="internet_access_denied_desc">Aplikace <xliff:g id="app_name">%1$s</xliff:g> nemá žádný přístup k internetu. Chcete jej povolit?</string>
+    <string name="notifications">Oznámení</string>
+    <string name="monitoring_new_app_installs_desc">Firewall nyní monitoruje nové instalace aplikací, aby mohl ve výchozím nastavení zakázat přístup k internetu!</string>
+    <string name="allow">Povolit</string>
+    <string name="notifications_desc">Oznámení týkající se přístupu k internetu u nových aplikací</string>
+    <string name="pref_default_internet_summary">Nové aplikace budou mít ve výchozím nastavení povolený přístup k internetu</string>
+    <string name="settings">Nastavení</string>
+    <string name="notification_channel_fgs">Služba na popředí</string>
+    <string name="internet_access_denied_title">Přístup k internetu zamítnut!</string>
 </resources>

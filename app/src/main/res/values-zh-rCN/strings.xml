@@ -24,4 +24,16 @@
     <string name="contributors_summary">请前往 GitLab 查看 <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">贡献者列表</a> 。</string>
     <string name="contributing_orgs_title">贡献机构</string>
     <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a> 用于 <a href="https://calyxos.org">CalyxOS</a></string>
+    <string name="pref_default_internet_title">允许新安装应用联网</string>
+    <string name="notification_channel_fgs">前台服务</string>
+    <string name="monitoring_new_app_installs_title">监控新应用安装</string>
+    <string name="monitoring_new_app_installs_desc">防火墙正监控新应用安装以默认拒绝互联网访问！</string>
+    <string name="internet_access_denied_title">互联网访问被拒！</string>
+    <string name="internet_access_denied_desc"><xliff:g id="app_name">%1$s</xliff:g> 无权联网。你要允许它联网吗？</string>
+    <string name="notifications">通知</string>
+    <string name="notifications_desc">新安装应用联网权限的通知</string>
+    <string name="allow">允许</string>
+    <string name="notification_channel_alert">警报</string>
+    <string name="settings">设置</string>
+    <string name="pref_default_internet_summary">默认允许新安装应用联网</string>
 </resources>
