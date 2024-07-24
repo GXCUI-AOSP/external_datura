@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7aa4f488_de065c0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-07-24T10:34:56Z",
+      "side": 1,
+      "message": "Submit when Android 15 is out",
+      "revId": "3eea979b3fe3159abbae4739a0c41155d01c8447",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
