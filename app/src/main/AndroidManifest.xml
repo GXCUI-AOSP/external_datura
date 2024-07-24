@@ -3,10 +3,7 @@
   SPDX-FileCopyrightText: 2023 The Calyx Institute
   SPDX-License-Identifier: Apache-2.0
   -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.calyxos.datura"
-    android:versionCode="33000001"
-    android:versionName="13-2.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
     <uses-permission android:name="android.permission.MANAGE_NETWORK_POLICY" />
