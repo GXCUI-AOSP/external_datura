@@ -10,6 +10,7 @@ import android.os.UserManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.NavHostFragment
+import com.google.android.material.color.DynamicColors
 import dagger.hilt.android.AndroidEntryPoint
 import org.calyxos.datura.R
 
@@ -17,6 +18,7 @@ import org.calyxos.datura.R
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        DynamicColors.applyToActivityIfAvailable(this)
         setContentView(R.layout.activity_main)
 
         if (getSystemService(UserManager::class.java)?.isManagedProfile == true) {

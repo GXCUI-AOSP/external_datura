@@ -34,10 +34,7 @@
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/backgroundSwitch"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:thumbTint="@color/material_switch_thumb"
-            app:trackDecorationTint="@color/material_switch_decoration"
-            app:trackTint="@color/material_switch_track" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
@@ -67,10 +64,7 @@
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/wifiSwitch"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:thumbTint="@color/material_switch_thumb"
-            app:trackDecorationTint="@color/material_switch_decoration"
-            app:trackTint="@color/material_switch_track" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
@@ -100,10 +94,7 @@
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/mobileSwitch"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:thumbTint="@color/material_switch_thumb"
-            app:trackDecorationTint="@color/material_switch_decoration"
-            app:trackTint="@color/material_switch_track" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
@@ -132,10 +123,7 @@
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/vpnSwitch"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:thumbTint="@color/material_switch_thumb"
-            app:trackDecorationTint="@color/material_switch_decoration"
-            app:trackTint="@color/material_switch_track" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
