@@ -16,6 +16,24 @@
       "message": "This doesn\u0027t build without the android.jar change that was part of https://review.calyxos.org/c/CalyxOS/platform_external_calyx_datura/+/25963",
       "revId": "fef7e47448d3338c05dec93509fb1bb68f988e4e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dca4ed1_5d99f351",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 42
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-07-29T18:00:18Z",
+      "side": 1,
+      "message": "The change has been merged, the actual framework change is still open https://review.calyxos.org/c/CalyxOS/platform_frameworks",
+      "parentUuid": "d285adcd_2e8f6b2a",
+      "revId": "fef7e47448d3338c05dec93509fb1bb68f988e4e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
