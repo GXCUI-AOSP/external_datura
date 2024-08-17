@@ -24,4 +24,16 @@
     <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a>dla użytku w<a href="https://calyxos.org">CalyxOS</a></string>
     <string name="work_profile_help">Ustawienia zapory sieciowej dla aplikacji służbowych są zarządzane w aplikacji Zapora sieciowa, z poziomu profilu osobistego. Aplikacje służbowe mają ikonę teczki.</string>
     <string name="contributors_summary">Więcej informacji na temat<a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">spisu współtwórców</a>.</string>
+    <string name="notification_channel_fgs">Usługa pierwszoplanowa</string>
+    <string name="notification_channel_alert">Alerty</string>
+    <string name="monitoring_new_app_installs_desc">Zapora sieciowa monitoruje teraz nowe instalacje aplikacji, aby domyślnie odmawiać dostępu do internetu!</string>
+    <string name="notifications_desc">Powiadomienia dotyczące dostępu do internetu w przypadku instalacji nowych aplikacji</string>
+    <string name="settings">Ustawienia</string>
+    <string name="pref_default_internet_title">Zezwól na dostęp do internetu dla nowych instalacji</string>
+    <string name="internet_access_denied_title">Odmowa dostępu do internetu!</string>
+    <string name="internet_access_denied_desc"><xliff:g id="app_name">%1$s</xliff:g> nie ma dostępu do internetu. Czy chcesz na to zezwolić?</string>
+    <string name="pref_default_internet_summary">Nowe zainstalowane aplikacje mają domyślnie włączony dostęp do internetu</string>
+    <string name="monitoring_new_app_installs_title">Monitorowanie nowych instalacji aplikacji</string>
+    <string name="allow">Zezwól</string>
+    <string name="notifications">Powiadomienia</string>
 </resources>
