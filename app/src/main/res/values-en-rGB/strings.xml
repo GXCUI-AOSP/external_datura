@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="allow_wifi_data">Allow Wi-Fi data</string>
+    <string name="app_name">Datura Firewall</string>
+    <string name="allow_mobile_data">Allow mobile data</string>
+    <string name="app_short_name">Firewall</string>
+    <string name="default_settings">Default settings</string>
+    <string name="about_summary">A firewall application using Android\'s internal network API.</string>
+    <string name="no_internet">App does not ask for Internet permission</string>
+    <string name="about">About</string>
+    <string name="about_foss">It is licensed and distributed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 Licence</a>. See files for individual copyright holder\'s information.</string>
+    <string name="allow_background_data">Allow background network access</string>
+    <string name="system_apps">System apps</string>
+    <string name="app_logo">App\'s logo</string>
+    <string name="searchbar_hint">Search for apps</string>
+    <string name="custom_settings">Custom settings</string>
+    <string name="allow_vpn_data">Allow VPN data</string>
+    <string name="sort_by_last_used">Sort by last used</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="installed_apps">Installed apps</string>
+    <string name="version">Version: <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="contributors_title">Contributors</string>
+    <string name="contributors_summary">Please see GitLab for a <a href="https://gitlab.com/CalyxOS/platform_external_calyx_datura/-/graphs/HEAD">list of contributors</a>.</string>
+    <string name="contributing_orgs_title">Contributing Organisations</string>
+    <string name="contributing_orgs_summary"><a href="https://www.calyxinstitute.org">Calyx Institute</a> for use in <a href="https://calyxos.org">CalyxOS</a></string>
+    <string name="work_profile_help">Firewall settings for work apps are managed in your personal profile’s Firewall app. Work apps have a briefcase icon on them.</string>
+    <string name="settings">Settings</string>
+    <string name="pref_default_internet_title">Allow Internet for new installs</string>
+    <string name="pref_default_internet_summary">New apps installs are allowed to access Internet by default</string>
+    <string name="notification_channel_fgs">Foreground service</string>
+    <string name="notification_channel_alert">Alerts</string>
+    <string name="monitoring_new_app_installs_title">Monitoring new app installs</string>
+    <string name="monitoring_new_app_installs_desc">Firewall is now monitoring new app installs to deny Internet access by default!</string>
+    <string name="internet_access_denied_title">Internet access denied!</string>
+    <string name="internet_access_denied_desc"><xliff:g id="app_name">%1$s</xliff:g> has no Internet access. Do you want to allow it?</string>
+    <string name="allow">Allow</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_desc">Notifications regarding Internet access for new apps installs</string>
+</resources>
