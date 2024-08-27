@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b8e661e_ddbe9e51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-08-27T14:26:55Z",
+      "side": 1,
+      "message": "Could (or maybe it already does?) this also include apps being updated?",
+      "revId": "7b1539a9643543eb6b843eaaeb77920ffcb9592e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
