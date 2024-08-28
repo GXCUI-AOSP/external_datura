@@ -16,6 +16,24 @@
       "message": "Could (or maybe it already does?) this also include apps being updated?",
       "revId": "7b1539a9643543eb6b843eaaeb77920ffcb9592e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "181a4df7_707628c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-08-28T08:39:55Z",
+      "side": 1,
+      "message": "It should include that too",
+      "parentUuid": "1b8e661e_ddbe9e51",
+      "revId": "7b1539a9643543eb6b843eaaeb77920ffcb9592e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
