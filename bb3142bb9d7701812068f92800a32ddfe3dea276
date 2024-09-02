@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d737de7_63328c75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-09-02T10:32:54Z",
+      "side": 1,
+      "message": "SearchBar doesn\u0027t looks so pretty but I think its still okaish",
+      "revId": "bb3142bb9d7701812068f92800a32ddfe3dea276",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
